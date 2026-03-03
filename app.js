@@ -7,6 +7,10 @@ const CORS_PROXY = 'https://corsproxy.io/?';
 // State
 let currentLang = 'en';
 let currentCurrency = 'USD';
+let currentPage = 1;
+let currentSort = 'popularity';
+let allDeals = [];
+let itemsPerPage = 30;
 
 // Currency symbols
 const currencySymbols = {
@@ -38,13 +42,33 @@ const translations = {
         title: 'Steam Deals',
         loading: 'Loading deals...',
         error: 'Failed to load deals. Please try again later.',
-        discount: '-{discount}%'
+        discount: '-{discount}%',
+        filters: 'Filters',
+        sortBy: 'Sort by',
+        popularity: 'Popularity',
+        discountSize: 'Discount Size',
+        reviewCount: 'Review Count',
+        game: 'Game',
+        price: 'Price',
+        reviews: 'Reviews',
+        page: 'Page',
+        of: 'of'
     },
     ru: {
         title: 'Скидки Steam',
         loading: 'Загрузка скидок...',
         error: 'Не удалось загрузить скидки. Попробуйте позже.',
-        discount: '-{discount}%'
+        discount: '-{discount}%',
+        filters: 'Фильтры',
+        sortBy: 'Сортировать по',
+        popularity: 'Популярности',
+        discountSize: 'Размеру скидки',
+        reviewCount: 'Количеству отзывов',
+        game: 'Игра',
+        price: 'Цена',
+        reviews: 'Отзывы',
+        page: 'Страница',
+        of: 'из'
     }
 };
 
@@ -52,6 +76,7 @@ const translations = {
 document.addEventListener('DOMContentLoaded', () => {
     setupLanguageSelector();
     setupCurrencySelector();
+    setupSortSelector();
     loadDeals();
 });
 
@@ -65,6 +90,7 @@ function setupLanguageSelector() {
             btn.classList.add('active');
             currentLang = btn.dataset.lang;
             updateTranslations();
+            updateDisplay();
         });
     });
 }
@@ -75,7 +101,20 @@ function setupCurrencySelector() {
 
     currencySelect.addEventListener('change', (e) => {
         currentCurrency = e.target.value;
+        currentPage = 1;
         loadDeals();
+    });
+}
+
+// Sort selector
+function setupSortSelector() {
+    const sortSelect = document.getElementById('sort-select');
+
+    sortSelect.addEventListener('change', (e) => {
+        currentSort = e.target.value;
+        currentPage = 1;
+        sortDeals();
+        updateDisplay();
     });
 }
 
@@ -90,15 +129,22 @@ function updateTranslations() {
             el.textContent = lang[key];
         }
     });
+
+    // Update sort select options
+    const sortSelect = document.getElementById('sort-select');
+    sortSelect.querySelector('[value="popularity"]').textContent = lang.popularity;
+    sortSelect.querySelector('[value="discount"]').textContent = lang.discountSize;
+    sortSelect.querySelector('[value="reviews"]').textContent = lang.reviewCount;
 }
 
 // Load deals from Steam
 async function loadDeals() {
     const loadingEl = document.getElementById('loading');
-    const gridEl = document.getElementById('deals-grid');
+    const tbodyEl = document.getElementById('deals-tbody');
 
     loadingEl.style.display = 'flex';
-    gridEl.innerHTML = '';
+    tbodyEl.innerHTML = '';
+    document.getElementById('pagination').innerHTML = '';
 
     try {
         // Get featured categories from Steam through CORS proxy
@@ -107,25 +153,43 @@ async function loadDeals() {
         const specials = data.specials?.items || [];
 
         if (specials.length === 0) {
-            gridEl.innerHTML = `<p style="text-align: center; color: #8f98a0;">${translations[currentLang].error}</p>`;
+            showError();
             return;
         }
 
         // Get detailed info for each game
         const deals = await Promise.all(
-            specials.slice(0, 20).map(item => getGameDetails(item.id))
+            specials.map(item => getGameDetails(item.id))
         );
 
         // Filter only games with discounts
-        const discountedGames = deals.filter(game => game && game.discount > 0);
+        allDeals = deals.filter(game => game && game.discount > 0);
 
-        displayDeals(discountedGames);
+        if (allDeals.length === 0) {
+            showError();
+            return;
+        }
+
+        // Add popularity index from specials order
+        allDeals.forEach((game, index) => {
+            game.popularityIndex = specials.findIndex(s => s.id === game.id);
+        });
+
+        // Sort and display
+        sortDeals();
+        updateDisplay();
     } catch (error) {
         console.error('Error loading deals:', error);
-        gridEl.innerHTML = `<p style="text-align: center; color: #8f98a0;">${translations[currentLang].error}</p>`;
+        showError();
     } finally {
         loadingEl.style.display = 'none';
     }
+}
+
+// Show error message
+function showError() {
+    const tbodyEl = document.getElementById('deals-tbody');
+    tbodyEl.innerHTML = `<tr><td colspan="4" style="text-align: center; color: #8f98a0;">${translations[currentLang].error}</td></tr>`;
 }
 
 // Get game details
@@ -141,6 +205,9 @@ async function getGameDetails(appId) {
 
         const game = gameData.data;
         const priceInfo = game.price_overview || {};
+        const recommendations = game.recommendations || {};
+        const positiveReviews = game.positive_reviews || 0;
+        const totalReviews = game.total_reviews || 0;
 
         return {
             id: appId,
@@ -149,6 +216,9 @@ async function getGameDetails(appId) {
             discount: priceInfo.discount_percent || 0,
             originalPrice: priceInfo.initial_formatted || '',
             finalPrice: priceInfo.final_formatted || '',
+            reviewCount: recommendations.total || 0,
+            positiveReviews: positiveReviews,
+            totalReviews: totalReviews,
             url: `https://store.steampowered.com/app/${appId}`
         };
     } catch (error) {
@@ -157,42 +227,193 @@ async function getGameDetails(appId) {
     }
 }
 
-// Display deals
-function displayDeals(deals) {
-    const gridEl = document.getElementById('deals-grid');
-
-    if (deals.length === 0) {
-        gridEl.innerHTML = `<p style="text-align: center; color: #8f98a0;">${translations[currentLang].error}</p>`;
-        return;
+// Sort deals
+function sortDeals() {
+    switch (currentSort) {
+        case 'popularity':
+            allDeals.sort((a, b) => a.popularityIndex - b.popularityIndex);
+            break;
+        case 'discount':
+            allDeals.sort((a, b) => b.discount - a.discount);
+            break;
+        case 'reviews':
+            allDeals.sort((a, b) => b.reviewCount - a.reviewCount);
+            break;
     }
-
-    deals.forEach(game => {
-        const card = createDealCard(game);
-        gridEl.appendChild(card);
-    });
 }
 
-// Create deal card
-function createDealCard(game) {
-    const card = document.createElement('div');
-    card.className = 'deal-card';
-    card.onclick = () => window.open(game.url, '_blank');
+// Update display
+function updateDisplay() {
+    const tbodyEl = document.getElementById('deals-tbody');
+    tbodyEl.innerHTML = '';
+
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const pageDeals = allDeals.slice(startIndex, endIndex);
+
+    pageDeals.forEach(game => {
+        const row = createTableRow(game);
+        tbodyEl.appendChild(row);
+    });
+
+    updatePagination();
+}
+
+// Create table row
+function createTableRow(game) {
+    const row = document.createElement('tr');
+    row.onclick = () => window.open(game.url, '_blank');
 
     const discountText = translations[currentLang].discount.replace('{discount}', game.discount);
 
-    card.innerHTML = `
-        <img src="${game.image}" alt="${game.name}" loading="lazy">
-        <div class="deal-info">
-            <h3 class="deal-title">${game.name}</h3>
-            <div class="deal-price">
-                <span class="discount-badge">${discountText}</span>
-                <div class="prices">
-                    ${game.originalPrice ? `<span class="original-price">${game.originalPrice}</span>` : ''}
-                    <span class="final-price">${game.finalPrice}</span>
-                </div>
+    // Format reviews count
+    const reviewsText = game.reviewCount > 0
+        ? formatNumber(game.reviewCount)
+        : '-';
+
+    // Calculate positive percentage if available
+    const positivePercent = game.totalReviews > 0
+        ? Math.round((game.positiveReviews / game.totalReviews) * 100)
+        : null;
+
+    const reviewsClass = positivePercent && positivePercent >= 80
+        ? 'reviews-positive'
+        : '';
+
+    row.innerHTML = `
+        <td>
+            <div class="game-cell">
+                <img src="${game.image}" alt="${game.name}" loading="lazy">
+                <span class="game-name">${game.name}</span>
             </div>
-        </div>
+        </td>
+        <td>
+            <span class="discount-badge">${discountText}</span>
+        </td>
+        <td>
+            <div class="price-cell">
+                ${game.originalPrice ? `<span class="original-price">${game.originalPrice}</span>` : ''}
+                <span class="final-price">${game.finalPrice}</span>
+            </div>
+        </td>
+        <td>
+            <div class="reviews-cell ${reviewsClass}">
+                ${reviewsText}
+                ${positivePercent ? `<span style="color: var(--discount-green); margin-left: 0.5rem;">(${positivePercent}%)</span>` : ''}
+            </div>
+        </td>
     `;
 
-    return card;
+    return row;
+}
+
+// Format number (e.g., 1000 -> 1K)
+function formatNumber(num) {
+    if (num >= 1000000) {
+        return (num / 1000000).toFixed(1) + 'M';
+    } else if (num >= 1000) {
+        return (num / 1000).toFixed(1) + 'K';
+    }
+    return num.toString();
+}
+
+// Update pagination
+function updatePagination() {
+    const paginationEl = document.getElementById('pagination');
+    const totalPages = Math.ceil(allDeals.length / itemsPerPage);
+
+    paginationEl.innerHTML = '';
+
+    if (totalPages <= 1) {
+        return;
+    }
+
+    // Previous button
+    const prevBtn = document.createElement('button');
+    prevBtn.textContent = '←';
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.onclick = () => {
+        if (currentPage > 1) {
+            currentPage--;
+            updateDisplay();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+    paginationEl.appendChild(prevBtn);
+
+    // Page numbers
+    const maxVisiblePages = 5;
+    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+    if (endPage - startPage < maxVisiblePages - 1) {
+        startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+
+    if (startPage > 1) {
+        const firstBtn = document.createElement('button');
+        firstBtn.textContent = '1';
+        firstBtn.onclick = () => {
+            currentPage = 1;
+            updateDisplay();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+        paginationEl.appendChild(firstBtn);
+
+        if (startPage > 2) {
+            const dots = document.createElement('span');
+            dots.textContent = '...';
+            dots.className = 'pagination-info';
+            paginationEl.appendChild(dots);
+        }
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+        const pageBtn = document.createElement('button');
+        pageBtn.textContent = i;
+        pageBtn.className = i === currentPage ? 'active' : '';
+        pageBtn.onclick = () => {
+            currentPage = i;
+            updateDisplay();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+        paginationEl.appendChild(pageBtn);
+    }
+
+    if (endPage < totalPages) {
+        if (endPage < totalPages - 1) {
+            const dots = document.createElement('span');
+            dots.textContent = '...';
+            dots.className = 'pagination-info';
+            paginationEl.appendChild(dots);
+        }
+
+        const lastBtn = document.createElement('button');
+        lastBtn.textContent = totalPages;
+        lastBtn.onclick = () => {
+            currentPage = totalPages;
+            updateDisplay();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+        paginationEl.appendChild(lastBtn);
+    }
+
+    // Next button
+    const nextBtn = document.createElement('button');
+    nextBtn.textContent = '→';
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.onclick = () => {
+        if (currentPage < totalPages) {
+            currentPage++;
+            updateDisplay();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+    paginationEl.appendChild(nextBtn);
+
+    // Page info
+    const pageInfo = document.createElement('div');
+    pageInfo.className = 'pagination-info';
+    pageInfo.textContent = `${translations[currentLang].page} ${currentPage} ${translations[currentLang].of} ${totalPages}`;
+    paginationEl.appendChild(pageInfo);
 }

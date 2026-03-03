@@ -26,14 +26,43 @@
         </div>
     </header>
 
-    <main>
-        <div class="loading" id="loading">
-            <div class="spinner"></div>
-            <p data-translate="loading">Loading deals...</p>
-        </div>
+    <div class="container">
+        <aside class="filters-sidebar">
+            <h2 data-translate="filters">Filters</h2>
 
-        <div class="deals-grid" id="deals-grid"></div>
-    </main>
+            <div class="filter-group">
+                <h3 data-translate="sortBy">Sort by</h3>
+                <select id="sort-select">
+                    <option value="popularity" data-translate="popularity">Popularity</option>
+                    <option value="discount" data-translate="discountSize">Discount Size</option>
+                    <option value="reviews" data-translate="reviewCount">Review Count</option>
+                </select>
+            </div>
+        </aside>
+
+        <main>
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p data-translate="loading">Loading deals...</p>
+            </div>
+
+            <div class="deals-table-container">
+                <table class="deals-table" id="deals-table">
+                    <thead>
+                        <tr>
+                            <th data-translate="game">Game</th>
+                            <th data-translate="discount">Discount</th>
+                            <th data-translate="price">Price</th>
+                            <th data-translate="reviews">Reviews</th>
+                        </tr>
+                    </thead>
+                    <tbody id="deals-tbody"></tbody>
+                </table>
+            </div>
+
+            <div class="pagination" id="pagination"></div>
+        </main>
+    </div>
 
     <script src="app.js"></script>
 </body>
