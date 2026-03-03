@@ -1,47 +1,40 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaben</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-        }
-
-        .container {
-            text-align: center;
-            padding: 2rem;
-        }
-
-        h1 {
-            font-size: 4rem;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        p {
-            font-size: 1.5rem;
-            opacity: 0.9;
-        }
-    </style>
+    <title>Steam Deals - Gaben</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Gaben</h1>
-        <p>Сайт в разработке</p>
-    </div>
+    <header>
+        <div class="header-content">
+            <h1 class="logo" data-translate="title">Steam Deals</h1>
+            <div class="controls">
+                <div class="language-selector">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                </div>
+                <div class="currency-selector">
+                    <select id="currency-select">
+                        <option value="USD">USD ($)</option>
+                        <option value="UAH">UAH (₴)</option>
+                        <option value="RUB">RUB (₽)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p data-translate="loading">Loading deals...</p>
+        </div>
+
+        <div class="deals-grid" id="deals-grid"></div>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 </html>
