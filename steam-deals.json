@@ -1,375 +1,1363 @@
 {
-  "lastUpdated": "2026-03-03T21:32:03.986Z",
-  "deals": {
-    "US": [
-      {
-        "id": 2057760,
-        "name": "Esoteric Ebb",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/3fc3e737678a0d5db6816609bec2c9c6f2c11a88/header.jpg?t=1772569572",
-        "discount_percent": 10,
-        "initial_formatted": "$24.99",
-        "final_formatted": "$22.49",
-        "recommendations": 0,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2057760",
-        "popularityIndex": 0
+  "lastUpdated": "2026-03-03T21:40:53.964Z",
+  "totalGames": 20,
+  "currencies": [
+    "US",
+    "UA",
+    "RU"
+  ],
+  "deals": [
+    {
+      "id": 2057760,
+      "prices": {
+        "US": {
+          "discount_percent": 10,
+          "initial_formatted": "$24.99",
+          "final_formatted": "$22.49",
+          "initial": 2499,
+          "final": 2249,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 10,
+          "initial_formatted": "515₴",
+          "final_formatted": "463₴",
+          "initial": 51500,
+          "final": 46300,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 10,
+          "initial_formatted": "880 руб.",
+          "final_formatted": "792 руб.",
+          "initial": 88000,
+          "final": 79200,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 2221490,
-        "name": "Tom Clancy’s The Division® 2",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/688600b8d0844e3e065afc651ac773c623b05d7d/header_alt_assets_2.jpg?t=1772557241",
-        "discount_percent": 90,
-        "initial_formatted": "$29.99",
-        "final_formatted": "$2.99",
-        "recommendations": 25924,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2221490",
-        "popularityIndex": 1
+      "name": "Esoteric Ebb",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/3fc3e737678a0d5db6816609bec2c9c6f2c11a88/header.jpg?t=1772569572",
+      "short_description": "Esoteric Ebb is a single-player CRPG inspired by the freedom of tabletop adventures. Unravel a political conspiracy with your goblin sidekick. Roll dice in tense encounters. Become a cleric of legends or completely ruin the campaign.",
+      "detailed_description": "<h1>JOIN OUR DISCORD</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/6198b59b84f6ec98c68e36d666bdf4b1.poster.avif?t=1772569572\" width=1170 height=350 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/6198b59b84f6ec98c68e36d666bdf4b1.webm?t=1772569572\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/6198b59b84f6ec98c68e36d666bdf4b1.mp4?t=1772569572\" type=\"video/mp4\"></video></span></p></p><br><h1>About the Game</h1><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/f1bc7a7b31ec86b8e2641e8a32684ea1.avif?t=1772569572\" width=1560 height=545 /></span></p><p class=\"bb_paragraph\" ><strong>Esoteric Ebb</strong> is an isometric, Disco-like, TTRPG-turned-CRPG set in a bizarre post-Arcanepunk fantasy setting. You are <i>The Cleric</i>, an expert in esoteric events, and a glorified government goon. Inspired by classic CRPG games, Esoteric Ebb features deep and branching dialogs with a staggering amount of choices. </p><p class=\"bb_paragraph\" >Create the world’s worst cleric. Take on the city through tense TTRPG dice rolls. Struggle to maintain control with your Stats chiming in at every moment. Let the voices guide you into insane encounters and hit that natural 20 right when you need it. Become the most interesting player at the table and completely ruin your DM’s day.  </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/1074dfd57c8625567a017f54f7ab5641.avif?t=1772569572\" width=1560 height=545 /></span><i>Five days until the first-ever election, a tea shop explodes in the heart of the city. They send you to deal with the mess.</i>  </p><p class=\"bb_paragraph\" >You wake up in a morgue with half the river in your boots, surrounded by ten thousand rotting apples, several corpses, and one zombie. Out of your depth and with no official backup, you delve into your beloved city to investigate the impossible mystery no one wants you to solve. Juggle factions and play them against each other. Explore the streets and tunnels of a fantasy metropolis. Debate devils, drunk sphinxes, and all manner of fantastical fools in a world where mythological creatures sell newspapers at corner shops and ideologies overtake the ramblings of dead gods.  </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/1db5e97172e697cd4abf8d8229c54997.avif?t=1772569572\" width=1560 height=488 /></span></p><p class=\"bb_paragraph\" style=\"text-align: center\">Don’t forget the most important question: <i>What are you voting in the election?</i><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/de20073965531d03d156fb41ad2fb4a6.avif?t=1772569572\" width=1560 height=274 /></span></p><p class=\"bb_paragraph\" ><strong>MAKE CHOICES THAT WILL COME BACK TO BITE YOU.</strong> Shifting alliances! Risky dungeoneering! Complete open-ended quests, low and high-stakes alike, set in the streets, towers, and dark tunnels of Norvik. Become the city’s savior, its demise, or bumble your way into absolute power. </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/4290358431629477fbe5a33cd7594b5b.avif?t=1772569572\" width=1560 height=163 /></span> </p><p class=\"bb_paragraph\" ><strong>TRUST THE DICE.</strong> Let chance guide you! Roll to wrestle dwarves, steal anything in sight, or to keep yourself from looking like a complete fool. But remember, in true TTRPG fashion, failure can often be way more interesting. </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/65283904eede19f295a767459636b537.avif?t=1772569572\" width=1560 height=163 /></span></p><p class=\"bb_paragraph\" ><strong>IT'S ALL IN YOUR HEAD.</strong> Debate yourself! Each Ability Stat has a conflicting viewpoint and loves to interrupt important conversations. No matter whose side you fall on, you'll complete quests in wonderfully ridiculous ways. </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/17f7f2c8fe81c6e3abb70a32d40a2164.avif?t=1772569572\" width=1560 height=163 /></span></p><p class=\"bb_paragraph\" ><strong>WIELD REALITY-SHAPING MAGIC.</strong> Use The Cleric’s power for unique narrative choices. Control minds for fun and profit. Detect secrets in the tunnels below or in the thoughts of your enemies. Speak with anyone, living or dead, just to see how they insult you. </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/9e7874780ab0d1b76552287281cc06d3.avif?t=1772569572\" width=1560 height=163 /></span></p><p class=\"bb_paragraph\" ><strong>TURN-BASED ENCOUNTERS.</strong> Clerics in Norvik are taught to use violence as a last resort. When the need does arise, a roll of the dice determines life or death. But you always have a bizarre solution to any problem, don’t you? </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/978085f0793267ac29e16d9fda7c2d43.avif?t=1772569572\" width=1560 height=163 /></span></p><p class=\"bb_paragraph\" ><strong>THE QUESTING TREE.</strong> Your quest log, skill tree, and mind map all at once. Each Quest Branch can take root in your mind and alter The Cleric’s playstyle through game-changing feats.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/extras/7354cd08d5365f9dec87817031fb11e5.avif?t=1772569572\" width=1560 height=488 /></span></p>",
+      "genres": [
+        "Indie",
+        "RPG"
+      ],
+      "developers": [
+        "Christoffer Bodegård"
+      ],
+      "publishers": [
+        "Raw Fury"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/2057760",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 2183900,
-        "name": "Warhammer 40,000: Space Marine 2",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/13283344ea88e74574d3beeab76b56fd3df22b5f/header_alt_assets_11.jpg?t=1772125422",
-        "discount_percent": 67,
-        "initial_formatted": "$59.99",
-        "final_formatted": "$19.79",
-        "recommendations": 148203,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2183900",
-        "popularityIndex": 2
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Adjustable Text Size",
+        "Camera Comfort",
+        "Color Alternatives",
+        "Custom Volume Controls",
+        "Keyboard Only Option",
+        "Mouse Only Option",
+        "Playable without Timed Input",
+        "Subtitle Options",
+        "Touch Only Option",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "popularityIndex": 0
+    },
+    {
+      "id": 2221490,
+      "prices": {
+        "US": {
+          "discount_percent": 90,
+          "initial_formatted": "$29.99",
+          "final_formatted": "$2.99",
+          "initial": 2999,
+          "final": 299,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 90,
+          "initial_formatted": "649₴",
+          "final_formatted": "64₴",
+          "initial": 64900,
+          "final": 6400,
+          "currency": "UAH"
+        }
       },
-      {
-        "id": 2963800,
-        "name": "DrainSim",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/ebb4b50a07f7910524ac84a31f2e298f2595ddee/header.jpg?t=1772560877",
-        "discount_percent": 10,
-        "initial_formatted": "$14.99",
-        "final_formatted": "$13.49",
-        "recommendations": 0,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2963800",
-        "popularityIndex": 4
+      "name": "Tom Clancy’s The Division® 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/688600b8d0844e3e065afc651ac773c623b05d7d/header_alt_assets_2.jpg?t=1772557241",
+      "short_description": "Join The Division in this open world tactical shooter. Engage in intense cover-based combat, team up with friends, and build your ultimate agent to save Washington, D.C.",
+      "detailed_description": "<h1>Comparative Grid</h1><p><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/0366b19072ccf437e6f76552df1f1deb.avif?t=1772557241\" width=1560 height=878 /></span></p><br><h1>Ultimate Edition</h1><p><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/edf2b1dff42ec73399f593eaf0d75151.avif?t=1772557241\" width=1560 height=878 /></span><br><br>TOM CLANCY’S THE DIVISION 2 ULTIMATE EDITION INCLUDES:<br><br>· The base game;<br>· The Warlords of New York expansion;<br>· The Battle for Brooklyn DLC;<br>· 1,000 Bonus Premium Credits;<br>· A level 40 boost, allowing you to jump into the Battle for Brooklyn campaign;<br>· Stash space increase;<br>· All six endgame Specializations instantly unlocked;<br>· Eight exclusive missions;<br>· The Battleworn Secret Service Pack;<br>· The First Responder Pack;<br>· The Elite Agent Pack;<br>· One exclusive emote and outfit.</p><br><h1>Gold Edition</h1><p><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/43b4d4a752cd56c7b79e39b08232f31a.avif?t=1772557241\" width=1560 height=878 /></span><br><br>TOM CLANCY’S THE DIVISION 2 GOLD EDITION INCLUDES:<br><br>· The base game;<br>· The Warlords of New York expansion;<br>· The Battle for Brooklyn DLC;<br>· A level 40 boost, allowing you to jump into the Battle for Brooklyn campaign;<br>· Stash space increase.</p><br><h1>About the Game</h1>Defend and rebuild Washington, D.C. after a devastating pandemic in this tactical open world third-person shooter:<h2 class=\"bb_tag\" >TACTICAL COMBAT</h2><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/148a120980b159cd8923fef7fccfb4bf.poster.avif?t=1772557241\" width=780 height=438 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/148a120980b159cd8923fef7fccfb4bf.webm?t=1772557241\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/148a120980b159cd8923fef7fccfb4bf.mp4?t=1772557241\" type=\"video/mp4\"></video></span><br>Engage enemies in intense, cover-based firefights where tactical positioning and utility usage make the difference between life and death.<h2 class=\"bb_tag\" >BUILD THE ULTIMATE AGENT</h2><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/fdaf7df9fe1484ea1649a2a21545c853.poster.avif?t=1772557241\" width=780 height=438 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/fdaf7df9fe1484ea1649a2a21545c853.webm?t=1772557241\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/fdaf7df9fe1484ea1649a2a21545c853.mp4?t=1772557241\" type=\"video/mp4\"></video></span><br>Loot and craft cutting-edge gear and learn powerful skills to customize the way you fight. Take things further with Specializations, with roles like the long-range marksman, the demolition expert, the survivalist leader, and more.<h2 class=\"bb_tag\" >TEAMWORK SAVES LIVES</h2><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/75289faeadbb3622410780aba911ad57.poster.avif?t=1772557241\" width=780 height=438 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/75289faeadbb3622410780aba911ad57.webm?t=1772557241\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/75289faeadbb3622410780aba911ad57.mp4?t=1772557241\" type=\"video/mp4\"></video></span><br>Team up with up to three other agents for tactical co-op missions where synergy matters. Combine Specializations, share resources, and take on dynamic challenges that scale with your squad.<h2 class=\"bb_tag\" >SURVIVE EVER-EVOLVING WASHINGTON, D.C.</h2><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/3d622aa311d0252311dda92da1e764ed.poster.avif?t=1772557241\" width=780 height=438 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/3d622aa311d0252311dda92da1e764ed.webm?t=1772557241\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/3d622aa311d0252311dda92da1e764ed.mp4?t=1772557241\" type=\"video/mp4\"></video></span><br>From tense firefights in changing weather to the constant push and pull of factions warring over map control, the city reacts, adapts, and challenges you to survive with every move you make.<h2 class=\"bb_tag\" >VISCERAL ENDGAME</h2><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/5b71e6eade9033d27823456aff15e57a.poster.avif?t=1772557241\" width=780 height=438 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/5b71e6eade9033d27823456aff15e57a.webm?t=1772557241\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/extras/5b71e6eade9033d27823456aff15e57a.mp4?t=1772557241\" type=\"video/mp4\"></video></span><br>Reaching max level is just the start. Dive into high-stakes endgame missions, intense PvP battles, and dynamic world events that push your skills and teamwork to the limit. Every season brings fresh rewards and fierce challenges.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "developers": [
+        "Ubisoft"
+      ],
+      "publishers": [
+        "Ubisoft"
+      ],
+      "release_date": "Jan 12, 2023",
+      "metacritic": 84,
+      "recommendations": 25924,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/2221490",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 3419520,
-        "name": "Quarantine Zone: The Last Check",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/c8562f1c2f8f054e5f8efeb536a0ba2490905033/header.jpg?t=1772473754",
-        "discount_percent": 20,
-        "initial_formatted": "$19.99",
-        "final_formatted": "$15.99",
-        "recommendations": 8912,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/3419520",
-        "popularityIndex": 5
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Captions available",
+        "In-App Purchases",
+        "Partial Controller Support",
+        "HDR available"
+      ],
+      "popularityIndex": 1
+    },
+    {
+      "id": 2183900,
+      "prices": {
+        "US": {
+          "discount_percent": 67,
+          "initial_formatted": "$59.99",
+          "final_formatted": "$19.79",
+          "initial": 5999,
+          "final": 1979,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 67,
+          "initial_formatted": "1 299₴",
+          "final_formatted": "428₴",
+          "initial": 129900,
+          "final": 42800,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 67,
+          "initial_formatted": "3199 руб.",
+          "final_formatted": "1055 руб.",
+          "initial": 319900,
+          "final": 105500,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 3159330,
-        "name": "Assassin’s Creed Shadows",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg?t=1770145731",
-        "discount_percent": 50,
-        "initial_formatted": "$69.99",
-        "final_formatted": "$34.99",
-        "recommendations": 30328,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/3159330",
-        "popularityIndex": 6
+      "name": "Warhammer 40,000: Space Marine 2",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/13283344ea88e74574d3beeab76b56fd3df22b5f/header_alt_assets_11.jpg?t=1772125422",
+      "short_description": "Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium in spectacular third-person action in solo or multiplayer modes.",
+      "detailed_description": "<h1>EDITIONS BREAKDOWN</h1><p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/1777eb288390904fb2c71d71c04eeea5.avif?t=1772125422\" width=616 height=658 /></span></p></p><br><h1>About the Game</h1><p class=\"bb_paragraph\" style=\"text-align: center\"></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/f1870f76f228ea18e47d342dd96b9113.poster.avif?t=1772125422\" width=616 height=225 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/f1870f76f228ea18e47d342dd96b9113.webm?t=1772125422\" type=\"video/webm; codecs=vp9\"></video></span><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/ed4a3b84bb8018affb7d6958d3bd120a.avif?t=1772125422\" width=616 height=133 /></span></p><p class=\"bb_paragraph\" style=\"text-align: center\">Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium in spectacular third-person action in solo or multiplayer modes.  </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/01849c1a8f2b0376f25c9086a400d901.avif?t=1772125422\" width=616 height=104 /></span><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/ca8f7a4a27030ad6daf47aef22f9b075.poster.avif?t=1772125422\" width=616 height=225 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/ca8f7a4a27030ad6daf47aef22f9b075.webm?t=1772125422\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" style=\"text-align: center\">Fight the enemies of Mankind as Lieutenant Demetrian Titus in this sequel to 2011’s Space Marine, and prove your loyalty once again as you are reinstated to the Ultramarines. Hold at bay the horrors of the galaxy in epic battles on far-flung planets and uncover dark secrets to drive back the everlasting night.  </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/18e5c9b31a44026ba4cee24e02bb4e59.avif?t=1772125422\" width=616 height=104 /></span><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/00235ebe7022261023c1166460b5937a.poster.avif?t=1772125422\" width=616 height=225 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/00235ebe7022261023c1166460b5937a.webm?t=1772125422\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" style=\"text-align: center\">Dive into a war of galactic proportions! Enjoy intense, gory and fast-paced third-person action with hundreds of enemies on screen, and purge the relentless Tyranid swarms made possible by Saber’s trademark Swarm Engine. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/3fc06c803945ffd395e816641734e5e4.avif?t=1772125422\" width=616 height=104 /></span></p><p class=\"bb_paragraph\" style=\"text-align: center\">Jump in endlessly brutal and replayable PvE and PvP modes as your own Space Marines, unlocking new skills and cosmetics the more you play! Fight as one of seven unique classes, unlock up to 25 perks for each class, add perks to each of your weapons, and customise your appearance with a huge array of armour and weapon cosmetics!</p><p class=\"bb_paragraph\" style=\"text-align: center\">  </p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/a7eb29dc14385a0cbe5ac59801ec24cc.avif?t=1772125422\" width=780 height=207 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/0b9935af0cf7792fe78b3dba28cc6ba1.avif?t=1772125422\" width=616 height=104 /></span></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/f5ec2b6f71789b7aae7a252f19ac439d.poster.avif?t=1772125422\" width=610 height=224 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/f5ec2b6f71789b7aae7a252f19ac439d.webm?t=1772125422\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/extras/f5ec2b6f71789b7aae7a252f19ac439d.mp4?t=1772125422\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" style=\"text-align: center\">Tear through unending waves of Tyranid and Chaos assaults and fight to survive as long as you can in the unforgiving 3-player Siege mode. Accumulate points with each wave you defeat to spend on ammunition, equipment charges, Medicae Stimms and more… or use them to summon reinforcements like Cadians, Space Marines or the mighty Dreadnought.</p>",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "developers": [
+        "Saber Interactive"
+      ],
+      "publishers": [
+        "Focus Entertainment"
+      ],
+      "release_date": "Sep 9, 2024",
+      "metacritic": 82,
+      "recommendations": 148215,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/2183900",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 2221490,
-        "name": "Tom Clancy’s The Division® 2",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/688600b8d0844e3e065afc651ac773c623b05d7d/header_alt_assets_2.jpg?t=1772557241",
-        "discount_percent": 90,
-        "initial_formatted": "$29.99",
-        "final_formatted": "$2.99",
-        "recommendations": 25924,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2221490",
-        "popularityIndex": 7
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Adjustable Text Size",
+        "Camera Comfort",
+        "Color Alternatives",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "Stereo Sound",
+        "Subtitle Options",
+        "Surround Sound",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "popularityIndex": 2
+    },
+    {
+      "id": 2963800,
+      "prices": {
+        "US": {
+          "discount_percent": 10,
+          "initial_formatted": "$14.99",
+          "final_formatted": "$13.49",
+          "initial": 1499,
+          "final": 1349,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 10,
+          "initial_formatted": "599₴",
+          "final_formatted": "539₴",
+          "initial": 59900,
+          "final": 53900,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 10,
+          "initial_formatted": "1099 руб.",
+          "final_formatted": "989 руб.",
+          "initial": 109900,
+          "final": 98900,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 3527290,
-        "name": "PEAK",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1772555281",
-        "discount_percent": 38,
-        "initial_formatted": "$7.99",
-        "final_formatted": "$4.95",
-        "recommendations": 240517,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/3527290",
-        "popularityIndex": 8
+      "name": "DrainSim",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/ebb4b50a07f7910524ac84a31f2e298f2595ddee/header.jpg?t=1772560877",
+      "short_description": "Dive into DrainSim and seize control of the floods! Clear the city's submerged streets, with a huge range of different tools from rakes to submersible pumps. Embrace the satisfaction of restoring the water flow. Become the city's hero, one drain at a time.",
+      "detailed_description": "<h2 class=\"bb_tag\" >Day-Night cycle and realistic water physics!</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/extras/507469ce1c7594dd68236f901e4af65a.poster.avif?t=1772560877\" width=570 height=280 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/extras/507469ce1c7594dd68236f901e4af65a.webm?t=1772560877\" type=\"video/webm; codecs=vp9\"></video></span></p><h2 class=\"bb_tag\" >Plan your Mission!</h2><p class=\"bb_paragraph\" >For each mission, you'll receive crucial intel in advance and must carefully plan the tools you want to bring. Consider the time of day, type of terrain, and distance from your generator to your electric tools. Working late into the evening? Don't forget floodlights! Need to drain multiple areas simultaneously? Bring extra pumps and generators! Is there digable Ground? Better bring a Shovel! </p><p class=\"bb_paragraph\" >With each mission success, you'll earn recognition and unlock new tools and upgrades to boost your drainage capabilities. </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/extras/d44452205c6f9cc491049887f70de574.poster.avif?t=1772560877\" width=570 height=320 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/extras/d44452205c6f9cc491049887f70de574.webm?t=1772560877\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/extras/d44452205c6f9cc491049887f70de574.mp4?t=1772560877\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >Loads of different tools and unique Levels</h2><p class=\"bb_paragraph\" >Armed with an assortment of drain-clearing tools and equipment, from your trusty rake to water pumps, you'll tackle every challenge with precision and skill. From casual players to seasoned pros, DrainSim offers an engaging experience for all who seek the satisfaction of restoring order to the city's drainage system. So dive in, roll up your sleeves, and let DrainSim flush away your concerns one drain at a time. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/extras/d0112ee57b7b991bd5d66d926dd7ad49.poster.avif?t=1772560877\" width=570 height=321 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/extras/d0112ee57b7b991bd5d66d926dd7ad49.webm?t=1772560877\" type=\"video/webm; codecs=vp9\"></video></span></p>",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Early Access"
+      ],
+      "developers": [
+        "CodePeas"
+      ],
+      "publishers": [
+        "CodePeas"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/2963800",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 1702390,
-        "name": "Voor De Kroon",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/5f405a2f72a4cd6b85c8f0df359bedae6c58fc0a/header.jpg?t=1767325570",
-        "discount_percent": 30,
-        "initial_formatted": "$29.99",
-        "final_formatted": "$20.99",
-        "recommendations": 441,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/1702390",
-        "popularityIndex": 9
-      }
-    ],
-    "UA": [
-      {
-        "id": 2057760,
-        "name": "Esoteric Ebb",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/3fc3e737678a0d5db6816609bec2c9c6f2c11a88/header.jpg?t=1772569572",
-        "discount_percent": 10,
-        "initial_formatted": "515₴",
-        "final_formatted": "463₴",
-        "recommendations": 0,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2057760",
-        "popularityIndex": 0
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Color Alternatives",
+        "Custom Volume Controls",
+        "Playable without Timed Input",
+        "Save Anytime",
+        "Stereo Sound",
+        "Surround Sound",
+        "Family Sharing"
+      ],
+      "popularityIndex": 3
+    },
+    {
+      "id": 3419520,
+      "prices": {
+        "US": {
+          "discount_percent": 20,
+          "initial_formatted": "$19.99",
+          "final_formatted": "$15.99",
+          "initial": 1999,
+          "final": 1599,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 20,
+          "initial_formatted": "415₴",
+          "final_formatted": "332₴",
+          "initial": 41500,
+          "final": 33200,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 20,
+          "initial_formatted": "710 руб.",
+          "final_formatted": "568 руб.",
+          "initial": 71000,
+          "final": 56800,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 2221490,
-        "name": "Tom Clancy’s The Division® 2",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/688600b8d0844e3e065afc651ac773c623b05d7d/header_alt_assets_2.jpg?t=1772557241",
-        "discount_percent": 90,
-        "initial_formatted": "649₴",
-        "final_formatted": "64₴",
-        "recommendations": 25924,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2221490",
-        "popularityIndex": 1
+      "name": "Quarantine Zone: The Last Check",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/c8562f1c2f8f054e5f8efeb536a0ba2490905033/header.jpg?t=1772473754",
+      "short_description": "Command the checkpoint in a collapsing city. Screen survivors, manage scarce resources, and hold back the undead. Every choice matters and one mistake could unleash the plague beyond your walls.",
+      "detailed_description": "Quarantine Zone: The Last Check puts you in charge of a critical checkpoint during a zombie outbreak.<br><br>Armed with advanced screening tools and your own instincts, you must decide who gets through and who stays behind. One wrong choice could let the infection slip past your post.<br><br>But holding the line is only the beginning. You’ll need to manage scarce resources, reinforce defenses, and keep your camp alive as chaos intensifies with each passing day.<br><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/e2af4960b308cbb24060d70cad5073c1.poster.avif?t=1772473754\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/e2af4960b308cbb24060d70cad5073c1.webm?t=1772473754\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/e2af4960b308cbb24060d70cad5073c1.mp4?t=1772473754\" type=\"video/mp4\"></video></span><h2 class=\"bb_tag\" >SEE IT? SORT IT</h2>Use high-tech tools to uncover signs of infection among the terrified survivors. Identify contraband, forbidden items, and even rare collectables as you work to keep your checkpoint secure. Send those with suspicious symptoms to quarantine for observation, to the lab for additional screening, or save healthy survivors by sending them to the living block. And those who show to be infected… well, they don't stand a chance anyway.<br><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/50d7e695fb129451141821229709d04c.poster.avif?t=1772473754\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/50d7e695fb129451141821229709d04c.webm?t=1772473754\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/50d7e695fb129451141821229709d04c.mp4?t=1772473754\" type=\"video/mp4\"></video></span><h2 class=\"bb_tag\" >COMMAND THE CATASTROPHE</h2>As the survivor population swells, you’ll be relied upon to provide essentials such as power, food, and medicine. When the alarms are raised, pilot armed drones to ensure the infected don’t breach the compound. The better you manage your ever-expanding base, the more resources, tools, and weapon upgrades you’ll unlock.<br><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/f9cc7ccdc30533abd09157c7bc3e1fcf.poster.avif?t=1772473754\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/f9cc7ccdc30533abd09157c7bc3e1fcf.webm?t=1772473754\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/f9cc7ccdc30533abd09157c7bc3e1fcf.mp4?t=1772473754\" type=\"video/mp4\"></video></span><h2 class=\"bb_tag\" >LEARN. ADAPT. SURVIVE.</h2>When a quarantined survivor becomes an undead predator, all is not lost! Keep newly turned zombies confined to harvest and prepare samples in return for new tools, staff XP, and long-term upgrades. Individuals with unknown symptoms can also be analyzed, but these tests are always fatal to the subject. Will you choose to preserve life? Or will you pursue knowledge at any cost?<br><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/52ed681c9dc65805100350b0776bf823.poster.avif?t=1772473754\" width=1170 height=658 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/52ed681c9dc65805100350b0776bf823.webm?t=1772473754\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/extras/52ed681c9dc65805100350b0776bf823.mp4?t=1772473754\" type=\"video/mp4\"></video></span>",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "developers": [
+        "Brigada Games"
+      ],
+      "publishers": [
+        "Devolver Digital"
+      ],
+      "release_date": "Jan 12, 2026",
+      "metacritic": 0,
+      "recommendations": 8914,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/3419520",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 2183900,
-        "name": "Warhammer 40,000: Space Marine 2",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/13283344ea88e74574d3beeab76b56fd3df22b5f/header_alt_assets_11.jpg?t=1772125422",
-        "discount_percent": 67,
-        "initial_formatted": "1 299₴",
-        "final_formatted": "428₴",
-        "recommendations": 148215,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2183900",
-        "popularityIndex": 2
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "popularityIndex": 4
+    },
+    {
+      "id": 3159330,
+      "prices": {
+        "US": {
+          "discount_percent": 50,
+          "initial_formatted": "$69.99",
+          "final_formatted": "$34.99",
+          "initial": 6999,
+          "final": 3499,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 50,
+          "initial_formatted": "1 999₴",
+          "final_formatted": "999₴",
+          "initial": 199900,
+          "final": 99900,
+          "currency": "UAH"
+        }
       },
-      {
-        "id": 3527290,
-        "name": "PEAK",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1772555281",
-        "discount_percent": 38,
-        "initial_formatted": "159₴",
-        "final_formatted": "98₴",
-        "recommendations": 240517,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/3527290",
-        "popularityIndex": 3
+      "name": "Assassin’s Creed Shadows",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg?t=1770145731",
+      "short_description": "Experience an epic action-adventure story set in feudal Japan! Become a lethal shinobi assassin and powerful legendary samurai as you explore a beautiful open world in a time of chaos.",
+      "detailed_description": "<h1>Reviews</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/86dcd9c2553f7b5565a27c7cfd8c44e7.avif?t=1770145731\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras_big/86dcd9c2553f7b5565a27c7cfd8c44e7.avif?t=1770145731 width=800 height=450 /></span></p></p><br><h1>Comparison Grid</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/0cc4c89ea71e18b941c99cf6ff8e3eb9.avif?t=1770145731\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras_big/0cc4c89ea71e18b941c99cf6ff8e3eb9.avif?t=1770145731 width=1560 height=878 /></span></p></p><br><h1>Premium Edition</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/907276627d34cc2d9c6413e7cb82fa2a.avif?t=1770145731\" width=1560 height=878 /></span></p><p class=\"bb_paragraph\" >The Assassin’s Creed Shadows Premium Edition includes:</p><p class=\"bb_paragraph\" >- The base game</p><p class=\"bb_paragraph\" >- Sekiryu Gear Set for both Naoe and Yasuke</p><p class=\"bb_paragraph\" >- Eye of the Dragon Katana</p><p class=\"bb_paragraph\" >- Claw of the Dragon Long Katana</p><p class=\"bb_paragraph\" >- Sekiryu Beast Mount</p><p class=\"bb_paragraph\" >- Dragon Tooth Trinket</p><p class=\"bb_paragraph\" >- The Claws of Awaji Expansion, which features a new region, a new weapon, new skills, and 10+ hours of content.</p></p><br><h1>Deluxe Edition</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/89210cf8b3b979aec438328ad19f1d1f.avif?t=1770145731\" width=1560 height=878 /></span></p><p class=\"bb_paragraph\" >The Assassin’s Creed Shadows Digital Deluxe Edition includes:</p><p class=\"bb_paragraph\" >- The base game</p><p class=\"bb_paragraph\" >- The Sekiryu Dual Pack including gear and weapon sets for both Naoe and Yasuke, the Sekiryu Beast, and Dragon Tooth trinket</p><p class=\"bb_paragraph\" >- The Sekiryu Hideout Pack including four unique ornaments to customize the hideout for your shinobi league</p><p class=\"bb_paragraph\" >- Five mastery points</p></p><br><h1>PC Specifications</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/892364219abb56f5652421935456d830.avif?t=1770145731\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras_big/892364219abb56f5652421935456d830.avif?t=1770145731 width=800 height=450 /></span></p></p><br><h1>About the Game</h1><h2 class=\"bb_tag\" >MASTER THE DEEPEST STEALTH MECHANISMS OF THE SERIES &amp; FIGHT IN VISCERAL COMBAT</h2><p class=\"bb_paragraph\" >“Shadows is some of the most fun I’ve had with a stealth game in a decade” —PC Gamer</p><p class=\"bb_paragraph\" >Play as Naoe, a quick-witted shinobi, and use light, sound, and shadows to evade detection. Infiltrate enemy strongholds with many parkour options including the new grappling hook, distract guards with shuriken or smoke bombs, and assassinate your targets with your Hidden Blade. As the samurai Yasuke, use silent bow takedowns or unleash devastating melee combos with your katana or naginata.</p><p class=\"bb_paragraph\" >Switch between these two heroes to adapt your strategy and experience feudal Japan through two radically different approaches – stealth and strength, shadows and steel.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/52b3d70bbb3ca3a7839967dbe0c20725.poster.avif?t=1770145731\" width=600 height=300 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/52b3d70bbb3ca3a7839967dbe0c20725.webm?t=1770145731\" type=\"video/webm; codecs=vp9\"></video></span></p><h2 class=\"bb_tag\" >DEEP-DIVE INTO THE CAPTIVATING WORLD OF ASSASSIN'S CREED SHADOWS</h2><p class=\"bb_paragraph\" >“Assassin’s Creed Shadows creates one of the best versions of the open-world style.” —IGN</p><p class=\"bb_paragraph\" >Step into feudal Japan like never before! From majestic castle towns to serene shrines and sweeping countryside, Assassin’s Creed Shadows offers a breathtaking open world where dynamic seasons, shifting weather, and environmental destruction affect your tactical approach.</p><p class=\"bb_paragraph\" >And, to get full immersion, experience the game through Japanese voiceover.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/f350dcbdd4732a8bb2b0077d3004ad44.poster.avif?t=1770145731\" width=600 height=300 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/f350dcbdd4732a8bb2b0077d3004ad44.webm?t=1770145731\" type=\"video/webm; codecs=vp9\"></video></span></p><h2 class=\"bb_tag\" >DISCOVER THE MOST TECHNICALLY ADVANCED ASSASSIN’S CREED GAME YET</h2><p class=\"bb_paragraph\" >“It leads to one of the most dynamic, fun, and best-looking open-world games I’ve played this generation.” —Kotaku</p><p class=\"bb_paragraph\" >Experience a true next-gen leap with Assassin’s Creed Shadows, powered by the updated Anvil engine. Explore a world brought to life with ray-traced Global Illumination, real-time reflections, virtualized geometry, and dynamic wind and environmental particles.</p><p class=\"bb_paragraph\" >From the shimmer of lantern light on rain-slick rooftops to the rustle of cherry blossoms in the wind, every detail is crafted to immerse you deeper into feudal Japan.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/d8e1050e97d83051cc5ab57dced2c7ac.poster.avif?t=1770145731\" width=600 height=300 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/d8e1050e97d83051cc5ab57dced2c7ac.webm?t=1770145731\" type=\"video/webm; codecs=vp9\"></video></span></p><h2 class=\"bb_tag\" >A GLOBAL HIT</h2><p class=\"bb_paragraph\" >Whether you are a veteran Assassin’s Creed player or new to the franchise, feudal Japan awaits you! Join a community of millions of players and discover a title GameSpot describes as &quot;an absolute blast to play,&quot; Eurogamer.es as &quot;the best Assassin's Creed of the modern era&quot; and GamingTrend as “the new benchmark for the series.”</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/e6855655580bcce1dcfa46682276e2fb.poster.avif?t=1770145731\" width=600 height=300 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/extras/e6855655580bcce1dcfa46682276e2fb.webm?t=1770145731\" type=\"video/webm; codecs=vp9\"></video></span></p>",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "developers": [
+        "Ubisoft Quebec",
+        "Ubisoft Belgrade",
+        "Ubisoft Bordeaux",
+        "Ubisoft Bucharest & Craiova",
+        "Ubisoft Chengdu",
+        "Ubisoft Montpellier",
+        "Ubisoft Montreal",
+        "Ubisoft Osaka",
+        "Ubisoft Philippines",
+        "Ubisoft Shanghai",
+        "Ubisoft Singapore",
+        "Ubisoft Sofia",
+        "Ubisoft Ukraine"
+      ],
+      "publishers": [
+        "Ubisoft"
+      ],
+      "release_date": "Mar 19, 2025",
+      "metacritic": 0,
+      "recommendations": 30329,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/3159330",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 431960,
-        "name": "Wallpaper Engine",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg?t=1739211362",
-        "discount_percent": 20,
-        "initial_formatted": "125₴",
-        "final_formatted": "100₴",
-        "recommendations": 894848,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/431960",
-        "popularityIndex": 4
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Steam Trading Cards",
+        "Captions available",
+        "In-App Purchases",
+        "Adjustable Text Size",
+        "Camera Comfort",
+        "Color Alternatives",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "Keyboard Only Option",
+        "Mouse Only Option",
+        "Narrated Game Menus",
+        "Playable without Timed Input",
+        "Save Anytime",
+        "Stereo Sound",
+        "Subtitle Options",
+        "Surround Sound",
+        "Partial Controller Support",
+        "HDR available"
+      ],
+      "popularityIndex": 5
+    },
+    {
+      "id": 3527290,
+      "prices": {
+        "US": {
+          "discount_percent": 38,
+          "initial_formatted": "$7.99",
+          "final_formatted": "$4.95",
+          "initial": 799,
+          "final": 495,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 38,
+          "initial_formatted": "159₴",
+          "final_formatted": "98₴",
+          "initial": 15900,
+          "final": 9800,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 38,
+          "initial_formatted": "359 руб.",
+          "final_formatted": "222 руб.",
+          "initial": 35900,
+          "final": 22200,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 3159330,
-        "name": "Assassin’s Creed Shadows",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg?t=1770145731",
-        "discount_percent": 50,
-        "initial_formatted": "1 999₴",
-        "final_formatted": "999₴",
-        "recommendations": 30329,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/3159330",
-        "popularityIndex": 6
+      "name": "PEAK",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1772555281",
+      "short_description": "PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?",
+      "detailed_description": "<p class=\"bb_paragraph\" >PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/e82d11d9221b2a65adeb68d8cdbc3bd2.poster.avif?t=1772555281\" width=600 height=170 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/e82d11d9221b2a65adeb68d8cdbc3bd2.webm?t=1772555281\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/e82d11d9221b2a65adeb68d8cdbc3bd2.mp4?t=1772555281\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>WORK TOGETHER</strong></p><p class=\"bb_paragraph\" >Need a Hand? You’ll need to rely on your friends to have any hope of scaling the mountain, which changes every single day. Help each other up ledges, or place ropes and climbing spikes to make the way easier for those who come after.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/846e9fa10908c6ffe7ce91c6c9e7a937.poster.avif?t=1772555281\" width=600 height=170 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/846e9fa10908c6ffe7ce91c6c9e7a937.webm?t=1772555281\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/846e9fa10908c6ffe7ce91c6c9e7a937.mp4?t=1772555281\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>CLIMB</strong></p><p class=\"bb_paragraph\" >The Mountain Takes no Prisoners! Climb through 4 biomes on your way to the PEAK, each with their own life-threatening obstacles. You’ll need to scavenge for questionable food to survive, and manage your injuries carefully - every setback limits your stamina, making it harder to climb.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/5693882416756ce57898b4b2f774245d.poster.avif?t=1772555281\" width=600 height=170 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/5693882416756ce57898b4b2f774245d.webm?t=1772555281\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/5693882416756ce57898b4b2f774245d.mp4?t=1772555281\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>SURVIVE</strong></p><p class=\"bb_paragraph\" >Prepare For the Worst: Discover a variety of helpful survival items, from energy drinks to climbing spikes to the mysterious Anti-Rope. You’ve got no hope of making it to the PEAK unless you press every advantage given to you.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/d727ff6feeb578b5f07bf160882ed15f.poster.avif?t=1772555281\" width=600 height=172 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/d727ff6feeb578b5f07bf160882ed15f.webm?t=1772555281\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/d727ff6feeb578b5f07bf160882ed15f.mp4?t=1772555281\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>A NEW ISLAND EACH DAY</strong></p><p class=\"bb_paragraph\" >The game's map rotates out every 24 hours! Try out the new layout each day, or give the same island multiple attempts in a day until you conquer it.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/237f4cb42de69c582fbb73ba5f8cf462.poster.avif?t=1772555281\" width=600 height=170 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/237f4cb42de69c582fbb73ba5f8cf462.webm?t=1772555281\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/237f4cb42de69c582fbb73ba5f8cf462.mp4?t=1772555281\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>EARN BADGES</strong></p><p class=\"bb_paragraph\" >A Well-Seasoned Scout: Show off your survival prowess with dozens of badges to earn and cosmetics to unlock.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/270bbff7baa4cfb700c04a6c09085cd1.poster.avif?t=1772555281\" width=600 height=170 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/270bbff7baa4cfb700c04a6c09085cd1.webm?t=1772555281\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/270bbff7baa4cfb700c04a6c09085cd1.mp4?t=1772555281\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>CLIMBING IS BETTER WITH FRIENDS</strong></p><p class=\"bb_paragraph\" >Multiplayer in PEAK is friends-only - invite up to three other scouts through Steam to climb together, or face the mountain alone if you're <i>really</i> brave!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/738321f1bc4d3b1d1dddb55463c6e2eb.poster.avif?t=1772555281\" width=600 height=172 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/738321f1bc4d3b1d1dddb55463c6e2eb.webm?t=1772555281\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/extras/738321f1bc4d3b1d1dddb55463c6e2eb.mp4?t=1772555281\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>FEATURES</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Climb with a total of 4 friends</p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Communicate through proximity chat </p></li></ul><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >4 different biomes to ascend through</p></li><li><p class=\"bb_paragraph\" >A bunch of questionable foods</p></li><li><p class=\"bb_paragraph\" >Lots of different climbing items</p></li><li><p class=\"bb_paragraph\" >Campfires and marshmallows</p></li><li><p class=\"bb_paragraph\" >Character customization</p></li><li><p class=\"bb_paragraph\" >Online co-op and offline single player</p></li><li><p class=\"bb_paragraph\" >Ghosts</p></li></ul><p class=\"bb_paragraph\" > </p>",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "developers": [
+        "Team PEAK"
+      ],
+      "publishers": [
+        "Aggro Crab",
+        "Landfall"
+      ],
+      "release_date": "Jun 16, 2025",
+      "metacritic": 0,
+      "recommendations": 240517,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/3527290",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 2963800,
-        "name": "DrainSim",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/ebb4b50a07f7910524ac84a31f2e298f2595ddee/header.jpg?t=1772560877",
-        "discount_percent": 10,
-        "initial_formatted": "599₴",
-        "final_formatted": "539₴",
-        "recommendations": 0,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2963800",
-        "popularityIndex": 7
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Family Sharing"
+      ],
+      "popularityIndex": 6
+    },
+    {
+      "id": 1702390,
+      "prices": {
+        "US": {
+          "discount_percent": 30,
+          "initial_formatted": "$29.99",
+          "final_formatted": "$20.99",
+          "initial": 2999,
+          "final": 2099,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 30,
+          "initial_formatted": "600₴",
+          "final_formatted": "420₴",
+          "initial": 60000,
+          "final": 42000,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 30,
+          "initial_formatted": "1100 руб.",
+          "final_formatted": "770 руб.",
+          "initial": 110000,
+          "final": 77000,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 3419520,
-        "name": "Quarantine Zone: The Last Check",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/c8562f1c2f8f054e5f8efeb536a0ba2490905033/header.jpg?t=1772473754",
-        "discount_percent": 20,
-        "initial_formatted": "415₴",
-        "final_formatted": "332₴",
-        "recommendations": 8912,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/3419520",
-        "popularityIndex": 8
+      "name": "Voor De Kroon",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/5f405a2f72a4cd6b85c8f0df359bedae6c58fc0a/header.jpg?t=1767325570",
+      "short_description": "Fight for control during the Friso-Hollandic Wars. Set in the medieval 13th century, the game features a strategy campaign and historical battles. Fight alongside your army in 3rd person battles and command your troops in this strategy-action game.",
+      "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/27d7139dcd1a4a74d7a3531d7d5189b2.avif?t=1767325570\" data-big-src=https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras_big/27d7139dcd1a4a74d7a3531d7d5189b2.avif?t=1767325570 width=800 height=189 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Fight for control during the Friso-Hollandic Wars. Set in the medieval 13th century, the game features a strategy campaign and historical battles. Fight alongside your army in 3rd person battles and command your troops in this strategy-action game.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><strong>Voor de kroon is a medieval wargame.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/dc4797d171587966c83b695ad3ab50ec.poster.avif?t=1767325570\" width=1170 height=390 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/dc4797d171587966c83b695ad3ab50ec.webm?t=1767325570\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/dc4797d171587966c83b695ad3ab50ec.mp4?t=1767325570\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><i>The game uses Unreal Engine and Metahuman technology to make the historically researched characters come alive.</i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/6be8c07df8f3b1105ae8715d20fada48.poster.avif?t=1767325570\" width=1170 height=390 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/6be8c07df8f3b1105ae8715d20fada48.webm?t=1767325570\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/6be8c07df8f3b1105ae8715d20fada48.mp4?t=1767325570\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><i>Fight in medieval battles: participate in 13th century skirmishes or play intense siege battles.</i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/4193a9de63fa27db727cbdaebfedcf2c.poster.avif?t=1767325570\" width=1170 height=390 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/4193a9de63fa27db727cbdaebfedcf2c.webm?t=1767325570\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/4193a9de63fa27db727cbdaebfedcf2c.mp4?t=1767325570\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><i>Conquer a historical recreation of the 13th century low countries. Manage your settlements and officers. Eliminate your enemies.</i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/9b745419522dcd79fa5396efdbe39a0b.poster.avif?t=1767325570\" width=1170 height=390 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/9b745419522dcd79fa5396efdbe39a0b.webm?t=1767325570\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1702390/extras/9b745419522dcd79fa5396efdbe39a0b.mp4?t=1767325570\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><i>Dive into rich customization options which allow you to create your own factions, swords, castles, units and campaigns and share them in the Steam workshop.</i></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Solo developed with ♥ in The Netherlands</p>",
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "developers": [
+        "Future Minimalism"
+      ],
+      "publishers": [
+        "Future Minimalism"
+      ],
+      "release_date": "Dec 9, 2022",
+      "metacritic": 0,
+      "recommendations": 441,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/1702390",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 322170,
-        "name": "Geometry Dash",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg?t=1703006148",
-        "discount_percent": 50,
-        "initial_formatted": "124₴",
-        "final_formatted": "62₴",
-        "recommendations": 507279,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/322170",
-        "popularityIndex": 9
-      }
-    ],
-    "RU": [
-      {
-        "id": 2183900,
-        "name": "Warhammer 40,000: Space Marine 2",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/13283344ea88e74574d3beeab76b56fd3df22b5f/header_alt_assets_11.jpg?t=1772125422",
-        "discount_percent": 67,
-        "initial_formatted": "3199 руб.",
-        "final_formatted": "1055 руб.",
-        "recommendations": 148215,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2183900",
-        "popularityIndex": 0
+      "categories": [
+        "Single-player",
+        "Steam Workshop",
+        "Partial Controller Support",
+        "Includes level editor",
+        "Family Sharing"
+      ],
+      "popularityIndex": 7
+    },
+    {
+      "id": 4091580,
+      "prices": {
+        "US": {
+          "discount_percent": 20,
+          "initial_formatted": "$3.99",
+          "final_formatted": "$3.19",
+          "initial": 399,
+          "final": 319,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 20,
+          "initial_formatted": "99₴",
+          "final_formatted": "79₴",
+          "initial": 9900,
+          "final": 7900,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 20,
+          "initial_formatted": "165 руб.",
+          "final_formatted": "132 руб.",
+          "initial": 16500,
+          "final": 13200,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 2057760,
-        "name": "Esoteric Ebb",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/3fc3e737678a0d5db6816609bec2c9c6f2c11a88/header.jpg?t=1772569572",
-        "discount_percent": 10,
-        "initial_formatted": "880 руб.",
-        "final_formatted": "792 руб.",
-        "recommendations": 0,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2057760",
-        "popularityIndex": 1
+      "name": "Cat Adoption Tales",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091580/2bb9c7c8103e653871be95e02d187b8b9a1aff89/header.jpg?t=1772569695",
+      "short_description": "Foster and care for adorable hand drawn cats in this cozy 2D sim set to original Lo-Fi music.",
+      "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091580/extras/8e50eef9ffb674b0ff80858187a7cdd6.avif?t=1772569695\" width=1560 height=246 /></span><strong><br>Foster hand drawn cats</strong> in this cozy 2D cat simulation game with original lo-fi music.  <br>  <br>Keep an eye on their <strong>hunger, happiness, cleanliness, and energy. </strong></p><p class=\"bb_paragraph\" >Play <strong>mini-games to earn items and money</strong> then spend your earnings in the <strong>shop</strong> to buy food, toys and more.<br>Send them on <strong>adventures</strong> to discover rare items, or let them out on adventures while you are not playing. <br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091580/extras/dc7117579b9c5fe546e3b571874d93dd.avif?t=1772569695\" width=1560 height=246 /></span><br>Once the cat is ready they will go to their forever home - as you level up you will unlock new cats to foster, with new goals.  <br> <br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4091580/extras/2e4dcb7df8e7a670a878a63cedb6e2d7.avif?t=1772569695\" width=1560 height=246 /></span><br><strong>Cozy &amp; Relaxing:</strong> A gentle 2D game designed for unwinding at your own pace.  <br><strong>Wholesome Lo-Fi Vibes:</strong> No timers, no stress — just you, a cat and some goals to tick off when you are ready.   <br>OST by Jack the Robot </p>",
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "developers": [
+        "Closed Forum"
+      ],
+      "publishers": [
+        "Closed Forum"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/4091580",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 3527290,
-        "name": "PEAK",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1772555281",
-        "discount_percent": 38,
-        "initial_formatted": "359 руб.",
-        "final_formatted": "222 руб.",
-        "recommendations": 240517,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/3527290",
-        "popularityIndex": 2
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Mouse Only Option",
+        "Save Anytime",
+        "Touch Only Option",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "popularityIndex": 8
+    },
+    {
+      "id": 4293700,
+      "prices": {
+        "US": {
+          "discount_percent": 40,
+          "initial_formatted": "$3.99",
+          "final_formatted": "$2.39",
+          "initial": 399,
+          "final": 239,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 40,
+          "initial_formatted": "99₴",
+          "final_formatted": "59₴",
+          "initial": 9900,
+          "final": 5900,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 40,
+          "initial_formatted": "165 руб.",
+          "final_formatted": "99 руб.",
+          "initial": 16500,
+          "final": 9900,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 431960,
-        "name": "Wallpaper Engine",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg?t=1739211362",
-        "discount_percent": 20,
-        "initial_formatted": "329 руб.",
-        "final_formatted": "263 руб.",
-        "recommendations": 894839,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/431960",
-        "popularityIndex": 3
+      "name": "UP CORE",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4293700/5917137108871d7219a71d6f9a8d822dc306f4eb/header.jpg?t=1772567656",
+      "short_description": "One mistake could be your last. Overcome punishing obstacles with razor-sharp reflexes, push your limits, and master the art of parkour on your way to the top. No room for error!",
+      "detailed_description": "<p class=\"bb_paragraph\" >This isn't just a parkour game; it's a gauntlet that tests both your reflexes and your mind. While soaring through dynamic platforms, you must watch out for more than just the abyss—fake doors are everywhere. Can you reach the summit in a world where every step could be a trap?</p><h2 class=\"bb_tag\" >Key Features:</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Challenging Parkour:</strong> Moving platforms, rotating obstacles, and dangerous paths where timing is everything.</p></li><li><p class=\"bb_paragraph\" ><strong>Strategic Exploration:</strong> Search for hidden keys to unlock your path, but beware—not every door leads to progress!</p></li><li><p class=\"bb_paragraph\" ><strong>Mind Games:</strong> Trust your intuition in levels filled with fake doors and deceptive routes designed to mislead you.</p></li><li><p class=\"bb_paragraph\" ><strong>Precision Movement:</strong> Experience fluid controls and jumps that require pixel-perfect timing.</p></li></ul>",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "developers": [
+        "TKL  Games"
+      ],
+      "publishers": [
+        "TKL Games"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/4293700",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
       },
-      {
-        "id": 3419520,
-        "name": "Quarantine Zone: The Last Check",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/c8562f1c2f8f054e5f8efeb536a0ba2490905033/header.jpg?t=1772473754",
-        "discount_percent": 20,
-        "initial_formatted": "710 руб.",
-        "final_formatted": "568 руб.",
-        "recommendations": 8912,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/3419520",
-        "popularityIndex": 4
+      "categories": [
+        "Single-player",
+        "Family Sharing"
+      ],
+      "popularityIndex": 9
+    },
+    {
+      "id": 2758970,
+      "prices": {
+        "US": {
+          "discount_percent": 15,
+          "initial_formatted": "$0.99",
+          "final_formatted": "$0.84",
+          "initial": 99,
+          "final": 84,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 15,
+          "initial_formatted": "26₴",
+          "final_formatted": "22₴",
+          "initial": 2600,
+          "final": 2200,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 17,
+          "initial_formatted": "42 руб.",
+          "final_formatted": "35 руб.",
+          "initial": 4200,
+          "final": 3500,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 322170,
-        "name": "Geometry Dash",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg?t=1703006148",
-        "discount_percent": 50,
-        "initial_formatted": "200 руб.",
-        "final_formatted": "100 руб.",
-        "recommendations": 507279,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/322170",
-        "popularityIndex": 5
+      "name": "Doppelscape",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/header.jpg?t=1772567056",
+      "short_description": "Sci-fi roguelike deckbuilder with hex-based tactics. You are trapped in a simulation. Build team wide synergies and use clever positioning to defeat enemies and escape from Doppelscape.",
+      "detailed_description": "<h1>Discord Community</h1><p></p><br><h1>About the Game</h1>Doppelscape combines the deckbuilding of Slay the Spire with the tactical game play of Into the Breach.<h2 class=\"bb_tag\" >Features</h2><ul class=\"bb_ul\"><li><strong>Team-based strategy:</strong> Play a team of three characters. Build decks that with synergy across the whole team and balance each other's strengths and weaknesses. Each character has unique cards, mechanics, and strategy.<br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/extras/690aac82833f4ab91237d9137e1c067d.poster.avif?t=1772567056\" width=600 height=200 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/extras/690aac82833f4ab91237d9137e1c067d.webm?t=1772567056\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/extras/690aac82833f4ab91237d9137e1c067d.mp4?t=1772567056\" type=\"video/mp4\"></video></span><br><br></li><li><strong>Hex-based tactics:</strong> Positioning matters. Push, pull, shove, and teleport your enemies into position for a devastating area of effect attack. Position your characters in range of buffs and out of harms way. Use the terrain to your advantage by taking up defensive positions or discovering location based bonuses.<br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/extras/3ecb8d81519f37b3f368a3b8c241bb37.poster.avif?t=1772567056\" width=600 height=200 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/extras/3ecb8d81519f37b3f368a3b8c241bb37.webm?t=1772567056\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/extras/3ecb8d81519f37b3f368a3b8c241bb37.mp4?t=1772567056\" type=\"video/mp4\"></video></span><br><br></li><li><strong>Dynamic Deckbuilding:</strong> Build your deck each run as you attempt to escape from Doppelscape. Choose from hundreds of cards. Discover unique synergies and builds. But make sure you have the power to survive until your combos come together.<br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/extras/3c4e4ef1bcf264a818adb594a37a3465.poster.avif?t=1772567056\" width=600 height=200 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/extras/3c4e4ef1bcf264a818adb594a37a3465.webm?t=1772567056\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2758970/extras/3c4e4ef1bcf264a818adb594a37a3465.mp4?t=1772567056\" type=\"video/mp4\"></video></span><br><br></li><li><strong>Unique relic system:</strong> Find equipment that drastically alters game play and deckbuilding decisions. Items must be equipped in specific slots such as head, chest, or software.</li></ul>",
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "developers": [
+        "Joshua Stuckner"
+      ],
+      "publishers": [
+        "Joshua Stuckner"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/2758970",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
       },
-      {
-        "id": 427290,
-        "name": "Vampyr",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427290/header.jpg?t=1727792911",
-        "discount_percent": 90,
-        "initial_formatted": "2199 руб.",
-        "final_formatted": "219 руб.",
-        "recommendations": 18237,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/427290",
-        "popularityIndex": 6
+      "categories": [
+        "Single-player",
+        "Family Sharing"
+      ],
+      "popularityIndex": 10
+    },
+    {
+      "id": 3593520,
+      "prices": {
+        "US": {
+          "discount_percent": 10,
+          "initial_formatted": "$17.99",
+          "final_formatted": "$16.19",
+          "initial": 1799,
+          "final": 1619,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 10,
+          "initial_formatted": "375₴",
+          "final_formatted": "337₴",
+          "initial": 37500,
+          "final": 33700,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 10,
+          "initial_formatted": "650 руб.",
+          "final_formatted": "585 руб.",
+          "initial": 65000,
+          "final": 58500,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 1608230,
-        "name": "Planet of Lana",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1608230/afc987687f2f80c5c4a93293f2f0f53a62032212/header.jpg?t=1772554738",
-        "discount_percent": 90,
-        "initial_formatted": "710 руб.",
-        "final_formatted": "71 руб.",
-        "recommendations": 7182,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/1608230",
-        "popularityIndex": 7
+      "name": "Lust Arcanum",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/57d3da5002ede88650e2dcb8193257b6680ebf7a/header.jpg?t=1772563894",
+      "short_description": "Join Kyra, a half-dragon maiden cursed with endless lust, in this heartwarming slice-of-life adventure! Explore enchanted realms with a circle of unique maidens, each with their own ambition. Help satisfy their desires as you search for the bond Kyra desperately seeks!",
+      "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/fc1d14afd6d1b529a89a4889958a709c.poster.avif?t=1772563894\" width=616 height=200 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/fc1d14afd6d1b529a89a4889958a709c.webm?t=1772563894\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Kyra, cursed with insatiable desire, uncovers an ancient civilization that mastered endless pleasure. While exploring the ruins for treasures, she seduces the wild inhabitants she encounters, extracting their lustful essence. These essences not only unlock new skills for future encounters but also allow her to summon monsters for playtime. <span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/79b0650327b56eb1124a34b4439faca1.poster.avif?t=1772563894\" width=616 height=200 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/79b0650327b56eb1124a34b4439faca1.webm?t=1772563894\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >As Kyra rebuild the Arcanum in the ruins, curious maidens with unique desires join her. Share monster playmates and intriguing treasures from Kyra's adventures with them to uncover their stories and sexy contents.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/645b7aacf6641abc254c4fde94e7c832.avif?t=1772563894\" width=616 height=200 /></span></p><p class=\"bb_paragraph\" >The girls channel their power to support Kyra’s adventure, enhancing her efficiency in extracting monster essences and gathering resources. Make their rooms more comfortable, and they’ll channel even greater power.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/7ac94737e816ddb1869c4cb123448533.poster.avif?t=1772563894\" width=616 height=200 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/7ac94737e816ddb1869c4cb123448533.webm?t=1772563894\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Everyone has different preferences for playmates and playstyles. Collect more monsters and treasures to unlock a variety of sexy content, including writings, chibi arts, and fully animated hand-drawn scenes.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/69d4e51dde0f6e2824555679d34c170a.poster.avif?t=1772563894\" width=616 height=200 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/69d4e51dde0f6e2824555679d34c170a.webm?t=1772563894\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Lust Arcanum features interactive scenes with hand-drawn animations. You control animation speed, camera movement, and costume changes, with all scenes fully voiced by talented actors.</p><h2 class=\"bb_tag\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/081c62475e391d0a7cb062ae1cece6f1.avif?t=1772563894\" width=290 height=101 /></span><strong>Key Features:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Adult Content</strong>: Fully-voiced intimate scenarios with interactive control for all female characters</p></li><li><p class=\"bb_paragraph\" ><strong>Storytelling</strong>: Slice-of-life narratives featuring a varied cast of characters </p></li><li><p class=\"bb_paragraph\" ><strong>Diverse Exploration</strong>: Adventure across various terrain types, each containing unique environmental puzzles and creatures </p></li><li><p class=\"bb_paragraph\" ><strong>Creature Collection System</strong>: Capture and develop a variety of monsters for both battle teams and adult content</p></li><li><p class=\"bb_paragraph\" ><strong>Strategic Combat</strong>: Engage in tactical battles with your collected creatures with dice-rolling mechanics</p></li><li><p class=\"bb_paragraph\" ><strong>RPG Progression</strong>: Character and monster leveling systems that allow for customized development paths</p></li><li><p class=\"bb_paragraph\" ><strong>Customization Options</strong>: Unlock decorative elements and costumes to personalize your experience</p></li><li><p class=\"bb_paragraph\" ></p></li></ul><p class=\"bb_paragraph\" >The Cast: </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/77678998af1b706bef6a9eee1b0a2eb2.avif?t=1772563894\" width=616 height=274 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593520/extras/374ed185098bda2632067305d0bd70df.avif?t=1772563894\" width=616 height=274 /></span></p><p class=\"bb_paragraph\" ></p>",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "developers": [
+        "GigiBee",
+        "Karne"
+      ],
+      "publishers": [
+        "PixelBee"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/3593520",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
       },
-      {
-        "id": 1159690,
-        "name": "Voidtrain",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/c37f0d9c54c79a8267602beecba728872753f847/header.jpg?t=1771524180",
-        "discount_percent": 50,
-        "initial_formatted": "999 руб.",
-        "final_formatted": "499 руб.",
-        "recommendations": 7804,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/1159690",
-        "popularityIndex": 8
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Custom Volume Controls",
+        "Playable without Timed Input",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "popularityIndex": 11
+    },
+    {
+      "id": 2219590,
+      "prices": {
+        "US": {
+          "discount_percent": 15,
+          "initial_formatted": "$4.99",
+          "final_formatted": "$4.24",
+          "initial": 499,
+          "final": 424,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 15,
+          "initial_formatted": "124₴",
+          "final_formatted": "105₴",
+          "initial": 12400,
+          "final": 10500,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 15,
+          "initial_formatted": "200 руб.",
+          "final_formatted": "170 руб.",
+          "initial": 20000,
+          "final": 17000,
+          "currency": "RUB"
+        }
       },
-      {
-        "id": 2406770,
-        "name": "Bodycam",
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/bb577b428ed83ff9e3aa1c64844d1561814dffca/header.jpg?t=1767601683",
-        "discount_percent": 20,
-        "initial_formatted": "1200 руб.",
-        "final_formatted": "960 руб.",
-        "recommendations": 38486,
-        "positive_reviews": 0,
-        "total_reviews": 0,
-        "url": "https://store.steampowered.com/app/2406770",
-        "popularityIndex": 9
-      }
-    ]
-  }
+      "name": "Fur and Fangs",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2219590/5a08c28a7d6e62dc49c17694acd3290fe339d55a/header.jpg?t=1772562803",
+      "short_description": "A fast-paced action roguelike where players defend their homeland against endless waves of invading mice—solo or with up to 4 players.",
+      "detailed_description": "<p class=\"bb_paragraph\" ><strong>Defend your land from waves of invading mice!</strong><br>Play solo or with up to 4 players in this fast-paced action roguelike where heroic animals fight to protect their homeland. Choose from a variety of upgrades, level up your abilities, and face off against endless waves of enemies and powerful bosses. Whether you’re jumping in for a quick run or grinding to unlock permanent upgrades, each session brings new chaos and fun.</p><p class=\"bb_paragraph\" >Easy to pick up and hard to put down, this game is all about quick action, teamwork, and constant progression. The more you play, the stronger you get!</p>",
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "developers": [
+        "ASG"
+      ],
+      "publishers": [
+        "ASG"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/2219590",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Custom Volume Controls",
+        "Playable without Timed Input",
+        "Stereo Sound",
+        "Surround Sound",
+        "Family Sharing"
+      ],
+      "popularityIndex": 12
+    },
+    {
+      "id": 4136410,
+      "prices": {
+        "US": {
+          "discount_percent": 10,
+          "initial_formatted": "$4.99",
+          "final_formatted": "$4.49",
+          "initial": 499,
+          "final": 449,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 10,
+          "initial_formatted": "124₴",
+          "final_formatted": "111₴",
+          "initial": 12400,
+          "final": 11100,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 10,
+          "initial_formatted": "200 руб.",
+          "final_formatted": "180 руб.",
+          "initial": 20000,
+          "final": 18000,
+          "currency": "RUB"
+        }
+      },
+      "name": "Idle Rat: Island Digger",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/85a931b6121217e07077767cadb0b112a3b212c7/header.jpg?t=1772562654",
+      "short_description": "A relaxing pixel art idle digging game. A clever little rat uncovers treasures beneath a tropical island while running on top of all applications. Upgrade your stats, sell your finds, and progress at your own pace.",
+      "detailed_description": "<h2 class=\"bb_tag\" >Idle Rat: Island Digger</h2><p class=\"bb_paragraph\" ><strong>Dig. Discover. Relax. Always on top.</strong></p><p class=\"bb_paragraph\" >Idle Rat: Island Digger is a cozy idle digging game about small progress, quiet satisfaction, and watching a tiny worker do its thing while you focus on whatever else you’re doing.</p><p class=\"bb_paragraph\" >A clever little rat has arrived on a peaceful tropical island, and beneath the sand lies a whole world waiting to be uncovered. Dig through layers of sand and stone, discover hidden treasures, sell what you find, and slowly turn effort into steady progress.</p><p class=\"bb_paragraph\" >The game is designed to be <strong>always on top of all applications</strong>. It stays visible above everything else on your desktop, so your rat keeps digging while you work, browse, watch videos, or relax. You can freely move and resize the window to fit your perfect setup. This is not just a feature, it is the core experience.</p><p class=\"bb_paragraph\" >Play actively or let it run quietly in the background. Your rat never stops working.</p><h2 class=\"bb_tag\" >Dig at Your Own Pace</h2><p class=\"bb_paragraph\" >Watch your rat dig automatically, layer by layer. There is no rush, no pressure, and no failure. Just steady progress as the underground slowly reveals its secrets.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/368a8d71da47fc6b3ca1598f0bec7048.poster.avif?t=1772562654\" width=800 height=268 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/368a8d71da47fc6b3ca1598f0bec7048.webm?t=1772562654\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/368a8d71da47fc6b3ca1598f0bec7048.mp4?t=1772562654\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >Discover and Sell</h2><p class=\"bb_paragraph\" >As you dig deeper, you will uncover valuable resources and rare items hidden beneath the island. Everything you dig can be sold to earn coins, which you then use to grow stronger and dig even further.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/21a3c5025865e306d9337ac4d3e25ccd.poster.avif?t=1772562654\" width=800 height=268 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/21a3c5025865e306d9337ac4d3e25ccd.webm?t=1772562654\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/21a3c5025865e306d9337ac4d3e25ccd.mp4?t=1772562654\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" >Deep Upgrade System</h2><p class=\"bb_paragraph\" >Customize your progress with <strong>6 different upgrades</strong>, each changing how your rat works underground:</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/b86d05e39b9972e15fbc182ddb2b61a2.poster.avif?t=1772562654\" width=800 height=268 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/b86d05e39b9972e15fbc182ddb2b61a2.webm?t=1772562654\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/b86d05e39b9972e15fbc182ddb2b61a2.mp4?t=1772562654\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >🚀 <strong>Speed</strong><br>Dig faster and reach deeper layers more quickly.</p><p class=\"bb_paragraph\" >🍀 <strong>Luck</strong><br>Increase your chances of finding rare and valuable items.</p><p class=\"bb_paragraph\" >😴 <strong>Rest Time</strong><br>Reduce downtime so your rat gets back to digging sooner.</p><p class=\"bb_paragraph\" >💰 <strong>Sell Bonus</strong><br>Earn more coins from every item you sell.</p><p class=\"bb_paragraph\" >🎒 <strong>Inventory Capacity</strong><br>Carry more items before needing to sell.</p><p class=\"bb_paragraph\" >🤖 <strong>Auto Sell</strong><br>Automatically sell items to keep progress flowing smoothly.</p><p class=\"bb_paragraph\" >Each upgrade pushes you deeper and makes the idle loop more satisfying.</p><h2 class=\"bb_tag\" >Customize Your Cozy Setup</h2><p class=\"bb_paragraph\" >Idle Rat is not just about numbers. You can personalize your little island by purchasing and equipping different skins.</p><p class=\"bb_paragraph\" >🐀 <strong>Character Skins</strong></p><p class=\"bb_paragraph\" >Change your rat’s appearance by purchasing and equipping different skins.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/7623db74e85f2bd7cc06affa8d28c43d.poster.avif?t=1772562654\" width=800 height=268 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/7623db74e85f2bd7cc06affa8d28c43d.webm?t=1772562654\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/7623db74e85f2bd7cc06affa8d28c43d.mp4?t=1772562654\" type=\"video/mp4\"></video></span>⛺ <strong>Tents</strong></p><p class=\"bb_paragraph\" >Buy and switch between different tent designs to customize your island.<br>🪑 <strong>Chairs</strong></p><p class=\"bb_paragraph\" >Replace your chair with cozy alternatives to complete your setup.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/b7e2edb13dc9267560d68df0f048c88e.poster.avif?t=1772562654\" width=800 height=268 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/b7e2edb13dc9267560d68df0f048c88e.webm?t=1772562654\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4136410/extras/b7e2edb13dc9267560d68df0f048c88e.mp4?t=1772562654\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Buy them, equip them, and create a setup that feels uniquely yours.</p><h2 class=\"bb_tag\" >Made to Stay With You</h2><p class=\"bb_paragraph\" >The always on top window turns Idle Rat into a companion game. It lives on your screen while you do other things, quietly making progress. Resize it, move it anywhere, and let it blend into your daily routine.</p><h2 class=\"bb_tag\" >A Calm Pixel Art World</h2><p class=\"bb_paragraph\" >Enjoy a peaceful tropical atmosphere brought to life with charming pixel art and smooth idle animations. Everything is designed to feel relaxing, warm, and unobtrusive.</p><p class=\"bb_paragraph\" >Idle Rat: Island Digger is about slowing down, enjoying small wins, and letting progress happen naturally.</p><p class=\"bb_paragraph\" >Sit back, keep it on top, and let your tiny rat dig deeper. 🌊🐀</p>",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "developers": [
+        "Whiskerbit"
+      ],
+      "publishers": [
+        "Whiskerbit"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/4136410",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "popularityIndex": 13
+    },
+    {
+      "id": 4054940,
+      "prices": {
+        "US": {
+          "discount_percent": 25,
+          "initial_formatted": "$19.99",
+          "final_formatted": "$14.99",
+          "initial": 1999,
+          "final": 1499,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 25,
+          "initial_formatted": "415₴",
+          "final_formatted": "311₴",
+          "initial": 41500,
+          "final": 31100,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 25,
+          "initial_formatted": "710 руб.",
+          "final_formatted": "532 руб.",
+          "initial": 71000,
+          "final": 53200,
+          "currency": "RUB"
+        }
+      },
+      "name": "Return to Dark Castle",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054940/18f1862d7c12ef9a17d0b833986d7606ffa16247/header.jpg?t=1772561123",
+      "short_description": "The classic returns to punish the bold. A re-imagined retro platformer of precision, peril, and persistence — featuring every level from Dark Castle and Beyond Dark Castle plus 50 brand-new punishing rooms rebuilt for modern systems.",
+      "detailed_description": "<p class=\"bb_paragraph\" >Return to Dark Castle revives the legendary Macintosh series that defined precision platforming and comic peril. </p><p class=\"bb_paragraph\" >This definitive edition includes the complete Dark Castle (1986) and Beyond Dark Castle (1987) adventures — rebuilt with color visuals, remastered audio, original music and refined controls — plus 50 all-new rooms created exclusively for this release. </p><p class=\"bb_paragraph\" >Step into the boots of a new hero on a quest to defeat the Black Knight and reclaim the castle’s secrets. Expect classic challenge, slapstick misfortune, and finely tuned puzzle-platforming that rewards skill and patience. <br><br><strong>Features </strong></p><p class=\"bb_paragraph\" >- All original Dark Castle and Beyond Dark Castle levels, fully remastered </p><p class=\"bb_paragraph\" >- 50 brand-new rooms designed by Z Sculpt </p><p class=\"bb_paragraph\" >- Gamepad and keyboard support on all platforms </p><p class=\"bb_paragraph\" >- Save, replay, and share your best runs </p><p class=\"bb_paragraph\" >- Built-in homage to the series’ 1980s roots </p><p class=\"bb_paragraph\" > <br>About Ludit Holdings: </p><p class=\"bb_paragraph\" >Ludit is an independent studio founded by Mark Stephen Pierce, co-creator of the original Dark Castle series. <br>Ludit is dedicated to reviving the classic Dark Castle franchise while preserving the precision and humor that made them timeless. <br> <br>About Z Sculpt:  </p><p class=\"bb_paragraph\" >Formed in 1998 as a Macintosh shareware company. Today, Z Sculpt makes mobile, PC/Mac, and virtual reality games. </p>",
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "developers": [
+        "Z Sculpt Entertainment"
+      ],
+      "publishers": [
+        "Ludit"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/4054940",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Partial Controller Support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "popularityIndex": 14
+    },
+    {
+      "id": 4273610,
+      "prices": {
+        "US": {
+          "discount_percent": 20,
+          "initial_formatted": "$0.99",
+          "final_formatted": "$0.79",
+          "initial": 99,
+          "final": 79,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 23,
+          "initial_formatted": "26₴",
+          "final_formatted": "20₴",
+          "initial": 2600,
+          "final": 2000,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 21,
+          "initial_formatted": "42 руб.",
+          "final_formatted": "33 руб.",
+          "initial": 4200,
+          "final": 3300,
+          "currency": "RUB"
+        }
+      },
+      "name": "A Game About Shooting Bullets At Bullets (AGASBAB)",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/1a18572d70d571f3cc8a52dc7f4db836da9c524a/header.jpg?t=1772560914",
+      "short_description": "A 3D incremental FPS game where you don’t move, only your bullets do. You’re stuck in space with nothing to do but shoot bullets...at bullets. Watch bullets bounce out of control, numbers explode, and a quiet room turn into pure chaos.",
+      "detailed_description": "<h2 class=\"bb_tag\" >Shoot Bullets… At Bullets</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/957bb75ae562eaed6e1149333fca4ae6.poster.avif?t=1772560914\" width=960 height=540 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/957bb75ae562eaed6e1149333fca4ae6.webm?t=1772560914\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/957bb75ae562eaed6e1149333fca4ae6.mp4?t=1772560914\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Shoot bullets at other bullets in a fully <strong>physics-based 3D world</strong>.<br>Your bullets never disappear and are not affected by gravity. They stay in the room, collide with each other, bounce, and create endless interactions. Every session turns into a chaotic sandbox of motion, collisions, and score explosions.</p><h2 class=\"bb_tag\" >A Different Kind of Incremental Progression</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/4d9859071a5f490bed0aaf789d1ba3d3.poster.avif?t=1772560914\" width=960 height=540 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/4d9859071a5f490bed0aaf789d1ba3d3.webm?t=1772560914\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/4d9859071a5f490bed0aaf789d1ba3d3.mp4?t=1772560914\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Instead of a traditional skill tree, the game gives you <strong>full control over your session settings</strong>.</p><p class=\"bb_paragraph\" >Most stats can be increased <i>and</i> decreased at any time.<br>Want fewer bullets? Less bounce? Slower chaos? You can do that.</p><p class=\"bb_paragraph\" >Upgrades unlock new levels and options, but you are never forced into a single path.<br>You can’t lose. The goal is not to be the strongest, but to <strong>find the most fun balance of settings</strong>.</p><h2 class=\"bb_tag\" >Active Abilities to Shake Things Up</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/922c27199515f05733b2766d465114ac.poster.avif?t=1772560914\" width=960 height=540 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/922c27199515f05733b2766d465114ac.webm?t=1772560914\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/922c27199515f05733b2766d465114ac.mp4?t=1772560914\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Enhance your runs with simple but powerful abilities:</p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Anti-Gravity</strong> – Bullets are pushed upward instead of falling.</p></li><li><p class=\"bb_paragraph\" ><strong>Bullet Scale</strong> – Make bullets bigger for more collisions.</p></li><li><p class=\"bb_paragraph\" ><strong>Multi Shot</strong> – Fire several bullets at once.</p></li><li><p class=\"bb_paragraph\" ><strong>Slow Motion</strong> – Slow everything down and enjoy the chaos.</p></li></ul><p class=\"bb_paragraph\" >Abilities are here to spice things up, not to overwhelm.</p><h2 class=\"bb_tag\" >Color Themes</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/441724964f4a7fc3317f3c462675ace3.poster.avif?t=1772560914\" width=960 height=540 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/441724964f4a7fc3317f3c462675ace3.webm?t=1772560914\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273610/extras/441724964f4a7fc3317f3c462675ace3.mp4?t=1772560914\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Choose between multiple color themes and customize the look of your game.<br>Bullets and UI adapt to your selected color, letting you play in a style that feels right to you.</p>",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "developers": [
+        "NourSaiFR"
+      ],
+      "publishers": [
+        "NourSaiFR"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/4273610",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        "Single-player",
+        "Full controller support",
+        "Family Sharing"
+      ],
+      "popularityIndex": 15
+    },
+    {
+      "id": 4020250,
+      "prices": {
+        "US": {
+          "discount_percent": 10,
+          "initial_formatted": "$4.99",
+          "final_formatted": "$4.49",
+          "initial": 499,
+          "final": 449,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 10,
+          "initial_formatted": "124₴",
+          "final_formatted": "111₴",
+          "initial": 12400,
+          "final": 11100,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 10,
+          "initial_formatted": "200 руб.",
+          "final_formatted": "180 руб.",
+          "initial": 20000,
+          "final": 18000,
+          "currency": "RUB"
+        }
+      },
+      "name": "Bochi Collection",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/1076b0047ef672883bc8d876195e752b51c68120/header.jpg?t=1772560905",
+      "short_description": "An anthology of short indie games with emotional storytelling and simple gameplay. Discover unique experiences, each with distinct art, music, and tone. Perfect for players who enjoy narrative adventures, hidden details, and bite-sized stories.",
+      "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/6ab7f74151e55cc899e32219ab478083.avif?t=1772560905\" width=940 height=426 /></span></p><p class=\"bb_paragraph\" >Bochi Collection is an anthology of short narrative experiences. Each story offers a unique world, art direction, and tone, from unsettling to heartwarming, designed to be experienced in just a few minutes.</p><p class=\"bb_paragraph\" >Though brief, these experiences aim to linger in your mind long after they end. Every story holds its own atmosphere, emotions, and hidden details waiting to be discovered.</p><p class=\"bb_paragraph\" >Each experience includes optional challenges and secrets for players who wish to explore deeper.</p><h2 class=\"bb_tag\" >Included Games</h2><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/a743a98f4ed08d9bf811bbd65a10d381.poster.avif?t=1772560905\" width=600 height=338 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/a743a98f4ed08d9bf811bbd65a10d381.webm?t=1772560905\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/a743a98f4ed08d9bf811bbd65a10d381.mp4?t=1772560905\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>Repair Me</strong>: A quiet story about healing and self-acceptance.</p><p class=\"bb_paragraph\" >You play as Aida, a fragile soul trying to put herself back together. Explore her inner world through light, reflective interactions that mirror the process of recovery.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/df0b5cc6443195feae3924c4aab10387.webp?t=1772560905\" width=940 height=32 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/2222fea802368500f5add30632d0e0ff.poster.avif?t=1772560905\" width=600 height=338 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/2222fea802368500f5add30632d0e0ff.webm?t=1772560905\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/2222fea802368500f5add30632d0e0ff.mp4?t=1772560905\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>I Need a Home</strong>: A side-scrolling adventure where you guide a stray dog through city streets in search of love and safety.</p><p class=\"bb_paragraph\" >Simple movement and environmental storytelling reveal a touching reflection on belonging.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/df0b5cc6443195feae3924c4aab10387.webp?t=1772560905\" width=940 height=32 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/cb5deb477c02af9ffc9a5b8de96f087a.poster.avif?t=1772560905\" width=600 height=338 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/cb5deb477c02af9ffc9a5b8de96f087a.webm?t=1772560905\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/cb5deb477c02af9ffc9a5b8de96f087a.mp4?t=1772560905\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>Don't Play This</strong>: A &quot;game within a game&quot; where nostalgia meets grief. Pick up your father’s old console and play the game that defined your childhood.  It is a bittersweet journey of discovery to finally find some peace.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/df0b5cc6443195feae3924c4aab10387.webp?t=1772560905\" width=940 height=32 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" style=\"text-align: center\"><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/882da8152a71138f1959b9bfc1f063c6.poster.avif?t=1772560905\" width=600 height=338 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/882da8152a71138f1959b9bfc1f063c6.webm?t=1772560905\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4020250/extras/882da8152a71138f1959b9bfc1f063c6.mp4?t=1772560905\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>My Bubble 64</strong>: Collect soap bottles in a colorful, nostalgic world, but listen closely.</p><p class=\"bb_paragraph\" >Beneath the cheerful gameplay lies a subtle story about escape and the fragile comfort of imagination.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Features</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Four short, standalone games (5 - 10 minutes each)</p></li><li><p class=\"bb_paragraph\" >Distinct art styles</p></li><li><p class=\"bb_paragraph\" >Accessible, minimalist gameplay focused on story</p></li><li><p class=\"bb_paragraph\" >Secrets and hidden interactions to discover</p></li></ul><p class=\"bb_paragraph\" ></p>",
+      "genres": [
+        "Indie"
+      ],
+      "developers": [
+        "Alan Gaspar",
+        "Mónica Murillo"
+      ],
+      "publishers": [
+        "Bochi Games"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/4020250",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Keyboard Only Option",
+        "Playable without Timed Input",
+        "Steam Cloud",
+        "Stats",
+        "Family Sharing"
+      ],
+      "popularityIndex": 16
+    },
+    {
+      "id": 4216440,
+      "prices": {
+        "US": {
+          "discount_percent": 10,
+          "initial_formatted": "$10.99",
+          "final_formatted": "$9.89",
+          "initial": 1099,
+          "final": 989,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 10,
+          "initial_formatted": "245₴",
+          "final_formatted": "220₴",
+          "initial": 24500,
+          "final": 22000,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 10,
+          "initial_formatted": "420 руб.",
+          "final_formatted": "378 руб.",
+          "initial": 42000,
+          "final": 37800,
+          "currency": "RUB"
+        }
+      },
+      "name": "Family Roadshow: Hidden Adventures Collector's Edition",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216440/32fafcd67eb3abebee010ef4f01da986a6a6e234/header.jpg?t=1772560872",
+      "short_description": "A world tour, dozens of hidden objects, beautiful locations, and mini-games — all presented in a TV show format. Build your souvenir collection and unlock new places in the special edition.",
+      "detailed_description": "<p class=\"bb_paragraph\" >🌎 <strong>Travel the World in TV-Show Format</strong></p><p class=\"bb_paragraph\" >Family Roadshow: Hidden Adventures turns hidden-object gameplay into a global journey. Each new location feels like a fresh episode — from tropical beaches to bustling megacities and peaceful natural spots.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216440/extras/c1eb87927d5d4d96e7b30c47813b76b4.poster.avif?t=1772560872\" width=692 height=388 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216440/extras/c1eb87927d5d4d96e7b30c47813b76b4.webm?t=1772560872\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216440/extras/c1eb87927d5d4d96e7b30c47813b76b4.mp4?t=1772560872\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >🔍 <strong>Hidden Object Search Across Vivid, Memorable Locations</strong></p><p class=\"bb_paragraph\" >Every scene is packed with carefully placed items. The route includes 30 fascinating points around the world: national parks, historical landmarks, rare natural sites, and places usually seen only by true travel enthusiasts. Mini-games add rhythm, helping you unlock new areas and expand your souvenir collection.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216440/extras/600fcaa7b11fe504150cf16f405e212a.poster.avif?t=1772560872\" width=692 height=388 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216440/extras/600fcaa7b11fe504150cf16f405e212a.webm?t=1772560872\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216440/extras/600fcaa7b11fe504150cf16f405e212a.mp4?t=1772560872\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >🎮 <strong>Collector’s Edition</strong></p><p class=\"bb_paragraph\" >• 10 additional exclusive locations<br>• 10 new mini-games + 12 puzzles<br>• 30 unique souvenirs for your collection room<br>• Colorful desktop wallpapers with world scenery<br>• Music player in travel-show style</p>",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "developers": [
+        "AviGames"
+      ],
+      "publishers": [
+        "AviGames"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/4216440",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        "Single-player",
+        "Custom Volume Controls",
+        "Mouse Only Option",
+        "Playable without Timed Input",
+        "Family Sharing"
+      ],
+      "popularityIndex": 17
+    },
+    {
+      "id": 1830290,
+      "prices": {
+        "US": {
+          "discount_percent": 15,
+          "initial_formatted": "$29.99",
+          "final_formatted": "$25.49",
+          "initial": 2999,
+          "final": 2549,
+          "currency": "USD"
+        },
+        "UA": {
+          "discount_percent": 15,
+          "initial_formatted": "600₴",
+          "final_formatted": "510₴",
+          "initial": 60000,
+          "final": 51000,
+          "currency": "UAH"
+        },
+        "RU": {
+          "discount_percent": 15,
+          "initial_formatted": "1100 руб.",
+          "final_formatted": "935 руб.",
+          "initial": 110000,
+          "final": 93500,
+          "currency": "RUB"
+        }
+      },
+      "name": "Fall of an Empire",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/4992f1953afced9583afdd2127f8533372bad9ce/header.jpg?t=1772560785",
+      "short_description": "As Emperor of a crumbling realm, hold back collapse in this grand strategy epic. Fall of an Empire has you balance deadly politics, manage resources, and command battles to survive invasions and intrigue in a vast, Roman-inspired world.",
+      "detailed_description": "<p class=\"bb_paragraph\" >The empire is dying. You’ve seized the throne. Survival is victory. Seize control of an ailing empire, clinging to echoes of its former glory. Unlike traditional grand strategy games of expansion and conquest, Fall of an Empire challenges you to manage an empire on the brink of collapse. Face invading barbarian hordes, manage internal revolts, and engage in relentless political intrigue.</p><p class=\"bb_paragraph\" >Your rule will not last forever. How long can you defy history and halt its decline?</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/fbc73ebca792222d53d286c71e9aebff.poster.avif?t=1772560785\" width=1170 height=494 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/fbc73ebca792222d53d286c71e9aebff.webm?t=1772560785\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/fbc73ebca792222d53d286c71e9aebff.mp4?t=1772560785\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" ><strong>Command an Empire in Decline</strong></h2><p class=\"bb_paragraph\" >You have seized power in a violent coup, crowning yourself Emperor of a crumbling realm. Millions await your orders, but your legions are stretched thin, your coffers are empty, and your provinces are rife with unrest. </p><p class=\"bb_paragraph\" >It is up to you to defy history and extend the life of your empire through iron will, cunning politics, and brilliant strategy.</p><h2 class=\"bb_tag\" ><strong>Master Treacherous Politics &amp; Intrigue</strong></h2><p class=\"bb_paragraph\" >Manage a living world filled with unique, simulated characters—senators, generals, governors, and spies. Each character has their own evolving traits, personal ambitions, and loyalties. </p><p class=\"bb_paragraph\" >Exploit rivalries, uncover conspiracies, and forge fragile alliances to keep your throne. Reward your loyalists with power or eliminate threats in cold blood.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/a38cd87ec7ed8983ec98611ca3c63ee9.poster.avif?t=1772560785\" width=1170 height=494 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/a38cd87ec7ed8983ec98611ca3c63ee9.webm?t=1772560785\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/a38cd87ec7ed8983ec98611ca3c63ee9.mp4?t=1772560785\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" ><strong>Rule a Massive, Living World</strong></h2><p class=\"bb_paragraph\" >Exercise dominion over hundreds of settlements and millions of subjects across a sprawling, dynamic map. Build fortifications, manage resources and oversee simulated convoy supply lines on the map itself, allowing you to orchestrate raids and bolster your coffers. Watch cities visibly grow…or burn. </p><p class=\"bb_paragraph\" >Navigate changing seasons that test your logistics, from famine-inducing winters to bountiful harvests in the springs.</p><h2 class=\"bb_tag\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/eace91e6195289d9161d383000e51179.poster.avif?t=1772560785\" width=1170 height=494 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/eace91e6195289d9161d383000e51179.webm?t=1772560785\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/eace91e6195289d9161d383000e51179.mp4?t=1772560785\" type=\"video/mp4\"></video></span></h2><h2 class=\"bb_tag\" ><strong>Experience Truly Immersive Stories</strong></h2><p class=\"bb_paragraph\" >Dynamic storylines take your whole empire into account. When your capital burns, your court knows. When your loyal general grows old and bitter, his betrayal will make sense. No two playthroughs tell the same story.</p><h2 class=\"bb_tag\" ><strong>Fight on Every Front</strong></h2><p class=\"bb_paragraph\" >Engage in a unique hybrid battle system combining real-time strategy with timed turn-based decision-making. </p><p class=\"bb_paragraph\" >Direct your armies across multiple fronts simultaneously, then zoom into key battles to make crucial tactical calls that can turn the tide.</p><h2 class=\"bb_tag\" ><strong>Survive at Any Cost</strong></h2><p class=\"bb_paragraph\" >Your empire is destined to fall, but your legacy is measured by how long you’re able to halt your empire’s decline. </p><p class=\"bb_paragraph\" >Allocate dwindling resources, maintain fragile order, and respond to ever-shifting threats in a brutal test of strategic endurance.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/bf9fcc1b2f666c69ddd08e9ac72b4e69.poster.avif?t=1772560785\" width=1170 height=494 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/bf9fcc1b2f666c69ddd08e9ac72b4e69.webm?t=1772560785\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1830290/extras/bf9fcc1b2f666c69ddd08e9ac72b4e69.mp4?t=1772560785\" type=\"video/mp4\"></video></span></p><h2 class=\"bb_tag\" ><strong>Key Features</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Survival through cunning strategy</p></li><li><p class=\"bb_paragraph\" >Deep character-driven gameplay</p></li><li><p class=\"bb_paragraph\" >An expansive living world</p></li><li><p class=\"bb_paragraph\" >Advanced resource management</p></li><li><p class=\"bb_paragraph\" >Real-time hybrid battle system</p></li></ul><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >The fate of millions rests in your hands. How long can you hold back the Fall of an Empire?</p>",
+      "genres": [
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
+      "developers": [
+        "JG Games"
+      ],
+      "publishers": [
+        "JG Games"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/1830290",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Camera Comfort",
+        "Custom Volume Controls",
+        "Mouse Only Option",
+        "Playable without Timed Input",
+        "Save Anytime",
+        "Stereo Sound",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "popularityIndex": 18
+    },
+    {
+      "id": 3714400,
+      "prices": {
+        "US": {
+          "discount_percent": 20,
+          "initial_formatted": "$4.99",
+          "final_formatted": "$3.99",
+          "initial": 499,
+          "final": 399,
+          "currency": "USD"
+        }
+      },
+      "name": "Echoes of Red",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714400/856be379bddf561ef846f7a059d0308e465c231c/header.jpg?t=1772560762",
+      "short_description": "Echoes of Red is a fast-paced roguelite shooter where you can carry unlimited weapons at once, face endless enemies ever stronger and build your perfect custom loadout. Obliterate tens of thousands of enemies who dared to challenge you and make them regret standing against you.",
+      "detailed_description": "<p class=\"bb_paragraph\" ><strong>Obliterate tens of thousands of enemies who dared to challenge you</strong>.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714400/extras/5e8934e6d0beaf39368f693a5bf7184c.poster.avif?t=1772560762\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714400/extras/5e8934e6d0beaf39368f693a5bf7184c.webm?t=1772560762\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714400/extras/5e8934e6d0beaf39368f693a5bf7184c.mp4?t=1772560762\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714400/extras/ea6ffea9e1c94b2006ea21ff48dade1b.poster.avif?t=1772560762\" width=800 height=450 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714400/extras/ea6ffea9e1c94b2006ea21ff48dade1b.webm?t=1772560762\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714400/extras/ea6ffea9e1c94b2006ea21ff48dade1b.mp4?t=1772560762\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Custom loadout</h2><p class=\"bb_paragraph\" >Choose your class, equipment, upgrades and melees to discover each time new <strong>powerful synergies</strong>.</p><p class=\"bb_paragraph\" >Carry <strong>up to 11 weapons at once</strong> and improve them by eliminating <strong>ever stronger enemies</strong>.</p><p class=\"bb_paragraph\" ></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Equipment</p></li></ul><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714400/extras/equipments.gif?t=1772560762\" /></span></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Classes</p></li></ul><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714400/extras/classes.gif?t=1772560762\" /></span></p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Gameplay</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>105</strong> upgrades, <strong>30</strong> unlockable equipment, <strong>10</strong> deck cards, and <strong>8</strong> artifact weapons to build your <strong>OP</strong> arsenal.</p></li><li><p class=\"bb_paragraph\" >Eliminate all enemies, face mini-bosses, and win by defeating the <strong>Archon of Red</strong>.</p></li><li><p class=\"bb_paragraph\" ><strong>6</strong> different mini-bosses that teleport, grab, summon enemies, and much more.</p></li><li><p class=\"bb_paragraph\" ><strong>4</strong> classes, each with <strong>4</strong> weapons to suit any playstyle.</p></li><li><p class=\"bb_paragraph\" >Matches lasting <strong>15</strong> minutes.</p></li><li><p class=\"bb_paragraph\" ><strong>9</strong> difficulty levels, including <strong>Madness</strong>, <strong>One-Shot</strong>, <strong>Continuous Elite</strong>, and <strong>Infinite Survival</strong>.</p></li><li><p class=\"bb_paragraph\" >Collect souls to unlock new upgrades and fragments to enhance your weapons.</p></li><li><p class=\"bb_paragraph\" >Destroy minerals scattered across the map for small stat bonuses.</p></li><li><p class=\"bb_paragraph\" >Auto-aim and manual fire, with faster movement when not shooting.</p></li><li><p class=\"bb_paragraph\" >Slide through almost anything without taking damage.</p></li><li><p class=\"bb_paragraph\" >Unlock <strong>familiars</strong> that automatically gather resources, block, and attack enemies.</p></li></ul>",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "developers": [
+        "TERMAX Studios"
+      ],
+      "publishers": [
+        "TERMAX Studios"
+      ],
+      "release_date": "Mar 3, 2026",
+      "metacritic": 0,
+      "recommendations": 0,
+      "positive_reviews": 0,
+      "total_reviews": 0,
+      "url": "https://store.steampowered.com/app/3714400",
+      "type": "game",
+      "is_free": false,
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Camera Comfort",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "Playable without Timed Input",
+        "Save Anytime",
+        "Stereo Sound",
+        "Family Sharing"
+      ],
+      "popularityIndex": 19
+    }
+  ]
 }

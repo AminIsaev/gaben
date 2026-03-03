@@ -90,6 +90,8 @@ async function loadCachedData() {
             console.log(`📅 Cache updated: ${timeAgo}`);
         }
 
+        console.log(`🎮 Loaded ${cachedData.totalGames} games`);
+
         loadingEl.style.display = 'none';
     } catch (error) {
         console.error('Error loading cached data:', error);
@@ -123,22 +125,27 @@ function getTimeAgo(date) {
 
 // Display deals from cache
 function displayDeals() {
-    const countryCode = currencyMapping[currentCurrency];
-    const deals = cachedData.deals[countryCode] || [];
+    allDeals = cachedData.deals.map(game => {
+        const countryCode = currencyMapping[currentCurrency];
+        const priceData = game.prices[countryCode] || game.prices['US'] || {};
 
-    allDeals = deals.map(game => ({
-        id: game.id,
-        name: game.name,
-        image: game.header_image,
-        discount: game.discount_percent,
-        originalPrice: game.initial_formatted,
-        finalPrice: game.final_formatted,
-        reviewCount: game.recommendations,
-        positiveReviews: game.positive_reviews,
-        totalReviews: game.total_reviews,
-        popularityIndex: game.popularityIndex,
-        url: game.url
-    }));
+        return {
+            id: game.id,
+            name: game.name,
+            image: game.header_image,
+            discount: priceData.discount_percent || 0,
+            originalPrice: priceData.initial_formatted || '',
+            finalPrice: priceData.final_formatted || '',
+            reviewCount: game.recommendations || 0,
+            positiveReviews: game.positive_reviews || 0,
+            totalReviews: game.total_reviews || 0,
+            popularityIndex: game.popularityIndex,
+            url: game.url,
+            genres: game.genres || [],
+            tags: game.tags || [],
+            description: game.short_description || ''
+        };
+    });
 
     if (allDeals.length === 0) {
         showError();
