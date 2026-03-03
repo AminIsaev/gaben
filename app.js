@@ -1,6 +1,9 @@
 // Steam API Configuration
 const STEAM_API_KEY = '4EA6FC72CD2D41BD23DA659676B159FF';
 
+// CORS Proxy
+const CORS_PROXY = 'https://corsproxy.io/?';
+
 // State
 let currentLang = 'en';
 let currentCurrency = 'USD';
@@ -18,6 +21,16 @@ const currencyCountries = {
     UAH: 'UA',
     RUB: 'RU'
 };
+
+// Helper function to fetch through CORS proxy
+async function fetchWithProxy(url) {
+    const proxyUrl = CORS_PROXY + encodeURIComponent(url);
+    const response = await fetch(proxyUrl);
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+}
 
 // Translations
 const translations = {
@@ -88,17 +101,15 @@ async function loadDeals() {
     gridEl.innerHTML = '';
 
     try {
-        // Get featured categories from Steam
-        const response = await fetch(
-            `https://store.steampowered.com/api/featuredcategories?cc=${currencyCountries[currentCurrency]}`
-        );
-
-        if (!response.ok) {
-            throw new Error('Failed to fetch deals');
-        }
-
-        const data = await response.json();
+        // Get featured categories from Steam through CORS proxy
+        const steamUrl = `https://store.steampowered.com/api/featuredcategories?cc=${currencyCountries[currentCurrency]}`;
+        const data = await fetchWithProxy(steamUrl);
         const specials = data.specials?.items || [];
+
+        if (specials.length === 0) {
+            gridEl.innerHTML = `<p style="text-align: center; color: #8f98a0;">${translations[currentLang].error}</p>`;
+            return;
+        }
 
         // Get detailed info for each game
         const deals = await Promise.all(
@@ -120,15 +131,8 @@ async function loadDeals() {
 // Get game details
 async function getGameDetails(appId) {
     try {
-        const response = await fetch(
-            `https://store.steampowered.com/api/appdetails?appids=${appId}&cc=${currencyCountries[currentCurrency]}`
-        );
-
-        if (!response.ok) {
-            return null;
-        }
-
-        const data = await response.json();
+        const steamUrl = `https://store.steampowered.com/api/appdetails?appids=${appId}&cc=${currencyCountries[currentCurrency]}`;
+        const data = await fetchWithProxy(steamUrl);
         const gameData = data[appId];
 
         if (!gameData?.success) {
