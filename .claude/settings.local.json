@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init)",
+      "Bash(git branch -M main)",
+      "Bash(git remote add origin https://github.com/AminIsaev/gaben.github.io.git)",
+      "Bash(git add README.md)",
+      "Bash(git commit -m \"Initial commit\")",
+      "Bash(git config --global user.name \"Амин\")",
+      "Bash(git config --global user.email \"amin.isaev@gmail.com\")",
+      "Bash(git push -u origin main)"
+    ]
+  }
+}
