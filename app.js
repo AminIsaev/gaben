@@ -1,9 +1,3 @@
-// Steam API Configuration
-const STEAM_API_KEY = '4EA6FC72CD2D41BD23DA659676B159FF';
-
-// CORS Proxy
-const CORS_PROXY = 'https://corsproxy.io/?';
-
 // State
 let currentLang = 'en';
 let currentCurrency = 'USD';
@@ -11,30 +5,14 @@ let currentPage = 1;
 let currentSort = 'popularity';
 let allDeals = [];
 let itemsPerPage = 30;
+let cachedData = null;
 
-// Currency symbols
-const currencySymbols = {
-    USD: '$',
-    UAH: '₴',
-    RUB: '₽'
-};
-
-// Country codes for Steam API
-const currencyCountries = {
+// Currency mapping
+const currencyMapping = {
     USD: 'US',
     UAH: 'UA',
     RUB: 'RU'
 };
-
-// Helper function to fetch through CORS proxy
-async function fetchWithProxy(url) {
-    const proxyUrl = CORS_PROXY + encodeURIComponent(url);
-    const response = await fetch(proxyUrl);
-    if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return response.json();
-}
 
 // Translations
 const translations = {
@@ -52,7 +30,8 @@ const translations = {
         price: 'Price',
         reviews: 'Reviews',
         page: 'Page',
-        of: 'of'
+        of: 'of',
+        lastUpdated: 'Last updated: {date}'
     },
     ru: {
         title: 'Скидки Steam',
@@ -68,17 +47,107 @@ const translations = {
         price: 'Цена',
         reviews: 'Отзывы',
         page: 'Страница',
-        of: 'из'
+        of: 'из',
+        lastUpdated: 'Обновлено: {date}'
     }
 };
 
 // Initialize
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     setupLanguageSelector();
     setupCurrencySelector();
     setupSortSelector();
-    loadDeals();
+
+    // Load cached data
+    await loadCachedData();
+
+    if (cachedData) {
+        displayDeals();
+    }
 });
+
+// Load cached data from JSON file
+async function loadCachedData() {
+    const loadingEl = document.getElementById('loading');
+    const tbodyEl = document.getElementById('deals-tbody');
+
+    loadingEl.style.display = 'flex';
+    tbodyEl.innerHTML = '';
+
+    try {
+        const response = await fetch('steam-deals.json');
+
+        if (!response.ok) {
+            throw new Error('Failed to load cached data');
+        }
+
+        cachedData = await response.json();
+
+        // Show last updated time
+        if (cachedData.lastUpdated) {
+            const lastUpdated = new Date(cachedData.lastUpdated);
+            const timeAgo = getTimeAgo(lastUpdated);
+            console.log(`📅 Cache updated: ${timeAgo}`);
+        }
+
+        loadingEl.style.display = 'none';
+    } catch (error) {
+        console.error('Error loading cached data:', error);
+        showError();
+        loadingEl.style.display = 'none';
+    }
+}
+
+// Get time ago string
+function getTimeAgo(date) {
+    const seconds = Math.floor((new Date() - date) / 1000);
+
+    const intervals = {
+        year: 31536000,
+        month: 2592000,
+        week: 604800,
+        day: 86400,
+        hour: 3600,
+        minute: 60
+    };
+
+    for (const [unit, secondsInUnit] of Object.entries(intervals)) {
+        const interval = Math.floor(seconds / secondsInUnit);
+        if (interval >= 1) {
+            return `${interval} ${unit}${interval > 1 ? 's' : ''} ago`;
+        }
+    }
+
+    return 'just now';
+}
+
+// Display deals from cache
+function displayDeals() {
+    const countryCode = currencyMapping[currentCurrency];
+    const deals = cachedData.deals[countryCode] || [];
+
+    allDeals = deals.map(game => ({
+        id: game.id,
+        name: game.name,
+        image: game.header_image,
+        discount: game.discount_percent,
+        originalPrice: game.initial_formatted,
+        finalPrice: game.final_formatted,
+        reviewCount: game.recommendations,
+        positiveReviews: game.positive_reviews,
+        totalReviews: game.total_reviews,
+        popularityIndex: game.popularityIndex,
+        url: game.url
+    }));
+
+    if (allDeals.length === 0) {
+        showError();
+        return;
+    }
+
+    sortDeals();
+    updateDisplay();
+}
 
 // Language selector
 function setupLanguageSelector() {
@@ -102,7 +171,7 @@ function setupCurrencySelector() {
     currencySelect.addEventListener('change', (e) => {
         currentCurrency = e.target.value;
         currentPage = 1;
-        loadDeals();
+        displayDeals();
     });
 }
 
@@ -137,94 +206,10 @@ function updateTranslations() {
     sortSelect.querySelector('[value="reviews"]').textContent = lang.reviewCount;
 }
 
-// Load deals from Steam
-async function loadDeals() {
-    const loadingEl = document.getElementById('loading');
-    const tbodyEl = document.getElementById('deals-tbody');
-
-    loadingEl.style.display = 'flex';
-    tbodyEl.innerHTML = '';
-    document.getElementById('pagination').innerHTML = '';
-
-    try {
-        // Get featured categories from Steam through CORS proxy
-        const steamUrl = `https://store.steampowered.com/api/featuredcategories?cc=${currencyCountries[currentCurrency]}`;
-        const data = await fetchWithProxy(steamUrl);
-        const specials = data.specials?.items || [];
-
-        if (specials.length === 0) {
-            showError();
-            return;
-        }
-
-        // Get detailed info for each game
-        const deals = await Promise.all(
-            specials.map(item => getGameDetails(item.id))
-        );
-
-        // Filter only games with discounts
-        allDeals = deals.filter(game => game && game.discount > 0);
-
-        if (allDeals.length === 0) {
-            showError();
-            return;
-        }
-
-        // Add popularity index from specials order
-        allDeals.forEach((game, index) => {
-            game.popularityIndex = specials.findIndex(s => s.id === game.id);
-        });
-
-        // Sort and display
-        sortDeals();
-        updateDisplay();
-    } catch (error) {
-        console.error('Error loading deals:', error);
-        showError();
-    } finally {
-        loadingEl.style.display = 'none';
-    }
-}
-
 // Show error message
 function showError() {
     const tbodyEl = document.getElementById('deals-tbody');
     tbodyEl.innerHTML = `<tr><td colspan="4" style="text-align: center; color: #8f98a0;">${translations[currentLang].error}</td></tr>`;
-}
-
-// Get game details
-async function getGameDetails(appId) {
-    try {
-        const steamUrl = `https://store.steampowered.com/api/appdetails?appids=${appId}&cc=${currencyCountries[currentCurrency]}`;
-        const data = await fetchWithProxy(steamUrl);
-        const gameData = data[appId];
-
-        if (!gameData?.success) {
-            return null;
-        }
-
-        const game = gameData.data;
-        const priceInfo = game.price_overview || {};
-        const recommendations = game.recommendations || {};
-        const positiveReviews = game.positive_reviews || 0;
-        const totalReviews = game.total_reviews || 0;
-
-        return {
-            id: appId,
-            name: game.name,
-            image: game.header_image,
-            discount: priceInfo.discount_percent || 0,
-            originalPrice: priceInfo.initial_formatted || '',
-            finalPrice: priceInfo.final_formatted || '',
-            reviewCount: recommendations.total || 0,
-            positiveReviews: positiveReviews,
-            totalReviews: totalReviews,
-            url: `https://store.steampowered.com/app/${appId}`
-        };
-    } catch (error) {
-        console.error(`Error fetching details for app ${appId}:`, error);
-        return null;
-    }
 }
 
 // Sort deals

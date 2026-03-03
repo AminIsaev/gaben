@@ -1,0 +1,8 @@
+{
+  "name": "steam-deals",
+  "version": "1.0.0",
+  "description": "Steam deals tracker",
+  "scripts": {
+    "cache": "node cache-steam-deals.js"
+  }
+}
