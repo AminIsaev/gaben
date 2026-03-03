@@ -30,17 +30,116 @@
         <aside class="filters-sidebar">
             <h2 data-translate="filters">Filters</h2>
 
+            <!-- Sort by -->
             <div class="filter-group">
                 <h3 data-translate="sortBy">Sort by</h3>
                 <select id="sort-select">
                     <option value="popularity" data-translate="popularity">Popularity</option>
                     <option value="discount" data-translate="discountSize">Discount Size</option>
+                    <option value="price" data-translate="price">Price</option>
+                    <option value="rating" data-translate="rating">Rating</option>
                     <option value="reviews" data-translate="reviewCount">Review Count</option>
                 </select>
+            </div>
+
+            <!-- Discount range -->
+            <div class="filter-group">
+                <h3 data-translate="discountFilter">Discount</h3>
+                <div class="filter-inputs">
+                    <select id="discount-min">
+                        <option value="0">Any</option>
+                        <option value="10">10%+</option>
+                        <option value="25">25%+</option>
+                        <option value="50">50%+</option>
+                        <option value="75">75%+</option>
+                    </select>
+                    <span>to</span>
+                    <select id="discount-max">
+                        <option value="100">Any</option>
+                        <option value="25">25%</option>
+                        <option value="50">50%</option>
+                        <option value="75">75%</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Price range -->
+            <div class="filter-group">
+                <h3 data-translate="priceFilter">Price</h3>
+                <div class="filter-inputs">
+                    <input type="number" id="price-min" placeholder="Min" min="0" step="1">
+                    <span>to</span>
+                    <input type="number" id="price-max" placeholder="Max" min="0" step="1">
+                </div>
+            </div>
+
+            <!-- Rating -->
+            <div class="filter-group">
+                <h3 data-translate="ratingFilter">Rating (reviews %)</h3>
+                <select id="rating-min">
+                    <option value="0">Any</option>
+                    <option value="50">50%+</option>
+                    <option value="60">60%+</option>
+                    <option value="70">70%+</option>
+                    <option value="80">80%+</option>
+                    <option value="85">85%+</option>
+                    <option value="90">90%+</option>
+                    <option value="95">95%+</option>
+                </select>
+            </div>
+
+            <!-- Reviews count -->
+            <div class="filter-group">
+                <h3 data-translate="reviewsFilter">Min Reviews</h3>
+                <select id="reviews-min">
+                    <option value="0">Any</option>
+                    <option value="10">10+</option>
+                    <option value="50">50+</option>
+                    <option value="100">100+</option>
+                    <option value="500">500+</option>
+                    <option value="1000">1K+</option>
+                    <option value="5000">5K+</option>
+                </select>
+            </div>
+
+            <!-- Genres -->
+            <div class="filter-group">
+                <h3 data-translate="genreFilter">Genre</h3>
+                <select id="genre-select">
+                    <option value="">All Genres</option>
+                </select>
+            </div>
+
+            <!-- Release date -->
+            <div class="filter-group">
+                <h3 data-translate="releaseFilter">Release Year</h3>
+                <select id="release-year">
+                    <option value="">All Time</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2010s">2010-2019</option>
+                    <option value="2000s">2000-2009</option>
+                </select>
+            </div>
+
+            <!-- Clear filters button -->
+            <div class="filter-group">
+                <button id="clear-filters" class="clear-btn">Clear Filters</button>
             </div>
         </aside>
 
         <main>
+            <div class="deals-header">
+                <h2 class="deals-title">
+                    <span id="deals-count">0</span> deals found
+                </h2>
+                <div class="active-filters" id="active-filters"></div>
+            </div>
+
             <div class="loading" id="loading">
                 <div class="spinner"></div>
                 <p data-translate="loading">Loading deals...</p>
@@ -53,11 +152,17 @@
                             <th data-translate="game">Game</th>
                             <th data-translate="discount">Discount</th>
                             <th data-translate="price">Price</th>
+                            <th data-translate="rating">Rating</th>
                             <th data-translate="reviews">Reviews</th>
                         </tr>
                     </thead>
                     <tbody id="deals-tbody"></tbody>
                 </table>
+            </div>
+
+            <div class="no-results" id="no-results" style="display: none;">
+                <p>No games found matching your filters.</p>
+                <button class="clear-btn" onclick="clearAllFilters()">Clear Filters</button>
             </div>
 
             <div class="pagination" id="pagination"></div>
